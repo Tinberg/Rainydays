@@ -19,17 +19,27 @@ a {
     position: fixed;
     width: 100%;
     padding: 0;
-    z-index: 1;
-   
+    
     
 }
+
+.hamburger-menu {
+    font-size: 2.2em;
+    padding-left: 70px;
+    
+}
+
+.cart-icon2 {
+    font-size: 1.8em;
+    padding-right: 70px;
+    
+}
+
 
 .navigation-top-bar a {
     margin: 0.6em;
     font-size: 1.5em;
     padding: 0.3em;
-    position: relative;
-    left: 1em;
 }
 
 .navigation-top-bar a:hover {
@@ -50,7 +60,6 @@ a {
     color: #325b68;
     width: 45px;
     height: 45px;
-    
 }
 
 
@@ -88,28 +97,25 @@ input[type=text]:focus {
 .navigation-top-bar2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    
 }
 
 .logo-home {
     max-width: 16em;
-    margin-left: 190px;
+    margin-left: 29vw;
     margin-top: 80px;
-    width: 100%;
+    
+   
     
     }
 
 .buttons-top-bar2 {
     display: flex;
-    position: relative;
-    z-index: 0;
-    left: 20vw;
+    margin-left: 21vw;
     gap: 1.2em;
     margin-top: 80px;
-    
 }
-
-
 
 .profil-icon{
     
@@ -156,11 +162,8 @@ input[type=text]:focus {
 .shopnow-learnmore {
     display: flex;
     justify-content: center;
-    text-align: center;
-    
-    
-}
 
+}
 
 .background-image { 
     margin-top: 25px;
@@ -170,24 +173,31 @@ input[type=text]:focus {
     max-height: 500px;
     object-fit: cover;
     border-radius: 5px;
-    position: absolute;
-}
 
+}
 
 .h1-text {
     position:absolute;
-    padding-top: 180px;
+    padding-top: 225px;
     color: white;
     font-size: 1.5em;
+    
+    
+    
+
 }
     
+.buttons-shopnow-learnmore {
+    position: absolute; 
+    padding-top: 23.5em;
+
+}
+
 .buttons-shopnow-learnmore ul {
     display: flex;
-    gap: 25vw;
-    position: relative;
-    padding-top: 23.5em;
+    gap: 25em;
     
-    
+   
 }
 
 .buttons-shopnow-learnmore button {
@@ -197,10 +207,7 @@ input[type=text]:focus {
     font-size: 1.7em;
     padding: 0.6em;
     border-radius: 0.3em;
-    
-    
-   
-    
+    position: relative;
     
 }
 
@@ -224,88 +231,60 @@ input[type=text]:focus {
     
 
 
- /*phone*/
- @media only screen and (max-width: 480px){
 
+
+
+@media (max-width:1100px) {
+    .logo-home {
+        
+    }
+    
     .navigation-top-bar li, .search-bar {
         display:none;
+        
     }
-
     .buttons-top-bar2{
         display: none;
     }
-
     .hamburger-menu {
         margin-right: auto;
-        font-size: 2.2em;
-        padding-left: 30px;
+        
     }
-
     .cart-icon2 {
         margin-left: auto;
-        font-size: 1.8em;
-        padding-right: 30px;
     }
-
-    .buttons-shopnow-learnmore button {
-    font-size: 1.3em;
-    }
-   
 }
-
-
-
-    /*tablet*/
-    @media only screen and (min-width: 481) and (max-width:768px) {
-
-        .navigation-top-bar li, .search-bar {
-            display:none;
-        }
-    
-        .buttons-top-bar2{
-            display: none;
-        }
-        .hamburger-menu {
-            margin-right: auto;
-            font-size: 2.2em;
-            padding-left: 30px;
-        }
-    
-        .cart-icon2 {
-            margin-left: auto;
-            font-size: 1.8em;
-            padding-right: 30px;
-        }
-        
-        .h1-text { 
-            font-size: 1em;
-            padding-top: 200px;
-    }
-    
-    }
-
-
-
-    /*desktop*/
-    @media only screen and (min-width:769px) { 
-        .hamburger-menu {
+@media (min-width:1101px){
+    .hamburger-menu {
         display: none;
     }
-        .cart-icon2 {
+    .cart-icon2 {
         display: none;
     }
-    
+
 }
 
-
-
-
-
-
-  
-
+    @media (max-width:804px) {
+    .h1-text { 
+        font-size: 1em;
+        padding-top: 200px;
     
+    }
+    }
    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
