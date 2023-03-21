@@ -93,21 +93,20 @@ input[type=text]:focus {
 
 .logo-home {
     max-width: 16em;
-    margin-left: 190px;
     margin-top: 80px;
     width: 100%;
-    
     }
 
 .buttons-top-bar2 {
     display: flex;
-    position: relative;
+    position: absolute;
     z-index: 0;
-    left: 20vw;
+    left: 76vw;
     gap: 1.2em;
     margin-top: 80px;
     
 }
+
 
 
 
@@ -186,8 +185,7 @@ input[type=text]:focus {
     gap: 25vw;
     position: relative;
     padding-top: 23.5em;
-    
-    
+    padding-right: 30px;
 }
 
 .buttons-shopnow-learnmore button {
@@ -196,12 +194,7 @@ input[type=text]:focus {
     border: none;
     font-size: 1.7em;
     padding: 0.6em;
-    border-radius: 0.3em;
-    
-    
-   
-    
-    
+    border-radius: 0.3em; 
 }
 
 
@@ -246,9 +239,14 @@ input[type=text]:focus {
         font-size: 1.8em;
         padding-right: 30px;
     }
+    .h1-text { 
+        font-size: .8em;
+        padding-top: 200px;
+    }
 
     .buttons-shopnow-learnmore button {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    
     }
    
 }
@@ -256,7 +254,7 @@ input[type=text]:focus {
 
 
     /*tablet*/
-    @media only screen and (min-width: 481) and (max-width:768px) {
+    @media only screen and (min-width: 481px) and (max-width:768px) {
 
         .navigation-top-bar li, .search-bar {
             display:none;
@@ -281,6 +279,9 @@ input[type=text]:focus {
             font-size: 1em;
             padding-top: 200px;
     }
+        .buttons-shopnow-learnmore button {
+            font-size: 1.3em;
+        }
     
     }
 
