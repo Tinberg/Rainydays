@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rainydays, jackets designed for a range of different outdoors activities that enrich people's lives." />
+    <meta name="description"
+        content="Rainydays, jackets designed for a range of different outdoors activities that enrich people's lives." />
     <title>Rainydays</title>
-    <link rel="stylesheet" href="index2.css"> 
+    <link rel="stylesheet" href="index2.css">
     <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
     <header>
-            <nav>
-                  <ul class="navigation-top-bar" type="none">
-                    <div class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
-                    
-                       <li><a href="">About</a></li>
-                       <li><a href="">Jackets</a></li>
-                       <li><a href="">Contact</a></li>
-                    
-                    <div class="cart-icon2"><i class="fa-solid fa-cart-shopping"></i></div>
-                    <form class="search-bar"> 
-                        <div>
-                            <input class="input-field" style="font-family: Montserrat, fontawesome;" type="text" placeholder=" &#xf002; Search.."> 
-                        </div>
-                        <div class="magnifying-glass-icon">
-                             <l class="fa-solid fa-magnifying-glass"></l>
-                         </div>
-                    </form>  
-                  </ul>
-                  <div class="navigation-top-bar2">
-                    <div>
-                        <a href="Index.html"><img class="logo-home" src="images/RainyDays_Logo.png" alt="RainydaysLogo"></a>
+        <input type="checkbox" id="toggle-hamburger">
+        <nav>
+            <div class="navigation-top-bar">
+                <ul class="nav-list" type="none">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Jackets</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li class="hamburger-only"><a href="">Profil</a></li>
+                    <li class="hamburger-only"><a href=""><img class="logo-home-hamburger"
+                                src="images/RainyDays_Logo.png" alt="RainydaysLogo"> </a></li>
+                </ul>
+                <label class="hamburger" for="toggle-hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <label class="x-hamburger" for="toggle-hamburger">
+                    <i class="fa-solid fa-x"></i>
+                </label>
+
+                <div class="cart-icon2">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <form class="search-bar">
+                    <div><input class="input-search" style="font-family: Montserrat, fontawesome;" type="text"
+                            placeholder=" &#xf002; Search.."></div>
+                    <div class="magnifying-glass-icon">
+                        <l class="fa-solid fa-magnifying-glass"></l>
                     </div>
-                    <ul class="buttons-top-bar2" type="none">
-                        <li><button class="profil-icon"> <a href=""><i class="fa-regular fa-user"></i></a></button></li>
-                        <li><button class="cart-icon"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></button></li>
-                    </ul>
-                   </div>
-                  
-            </nav>
+                </form>
+            </div>
+            <div class="navigation-top-bar2">
+                <div>
+                    <a href="Index.html"><img class="logo-home" src="images/RainyDays_Logo.png" alt="RainydaysLogo"></a>
+                </div>
+                <ul class="buttons-top-bar2" type="none">
+                    <li><button class="profil-icon"> <a href=""><i class="fa-regular fa-user"></i></a></button></li>
+                    <li><button class="cart-icon"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></button></li>
+                </ul>
+            </div>
+
+        </nav>
     </header>
     <main>
         <section class="shopnow-learnmore">
@@ -50,14 +64,22 @@
             </div>
             <nav class="buttons-shopnow-learnmore">
                 <ul type="none">
-                    <!--få knappene like store-->
                     <li><button><a href="">Shop now</a></button></li>
                     <li><button><a href="">Learn more</a></button></li>
                 </ul>
             </nav>
+            </div>
+        </section>
+        <section class="product">
+            <div class="background-product">
+                <div class="h2">
+                    <h2>Best sellers</h2>
+                </div>
 
+            </div>
         </section>
 
     </main>
 </body>
+
 </html>

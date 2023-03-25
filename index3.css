@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat',arial;;
+} 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --button-background-color: #325b68;
+    --div-background-color: #325b68;
+}
+
+.hamburger::before,6
+.hamburger::after,
+.hamburger input {
+    content: "";
+    width: cover;
+}
+
