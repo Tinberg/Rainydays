@@ -251,10 +251,10 @@ a {
     z-index: 2;
     padding-top: 175px;
     padding-left: 50px;
-    font-size: 1.1em;
+    font-size: 1.1em; 
 }
 
-.product-and-text 
+.product-and-text ()
 
 /*phone*/
 @media only screen and (max-width: 480px) {
