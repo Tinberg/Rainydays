@@ -167,6 +167,41 @@ a {
   padding: 0.62em;
   margin: -0.62em;
 }
+.h1-text {
+  display: flex;
+  justify-content: center;
+}
+
+.h1-text h1 {
+  color:white;
+  background-color: #325b68;
+  margin-top: 25px;
+  height: 200px;
+  width: 1800px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-by-container {
+  display: flex;
+  justify-content: center;
+}
+.sort-by {
+  position: relative;
+  font-size: 1.5em;
+  width: 1805px;
+  border: inset;
+  border-color: #325b68;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #325b68;
+}
 
 .product-section {
   display: flex;
@@ -189,7 +224,7 @@ a {
     ),
     url(images/tobias-keller-73F4pKoUkM0-unsplash.jpg);
 }
-.h2 {
+.h2-text {
   display: flex;
   justify-content: flex-start;
   color: #325b68;
@@ -222,9 +257,9 @@ a {
   cursor: pointer;
 }
 .item1:hover ~ .product1-text {
-  text-decoration: underline;
+  text-decoration: 2px underline;
 }
-/*går opp når tablet madia slår inn, ikke opacity på text*/
+
 .sale-lable {
   background-color: rgba(255, 255, 255, 0.5);
   width: 35px;
@@ -303,6 +338,18 @@ hr {
   .product1 .item1 {
     width: 182px;
     height: 219px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .sale-lable {
+    left: 30px;
+  }
+  .h2-text {
+    padding-left: 25px;
+  }
+
+  .sort-by {
+    font-size: 1.2em;
   }
 }
 

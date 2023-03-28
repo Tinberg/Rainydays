@@ -245,7 +245,7 @@ a {
     ),
     url(images/tobias-keller-73F4pKoUkM0-unsplash.jpg);
 }
-.h2 {
+.h2-text {
   display: flex;
   justify-content: flex-start;
   color: #325b68;
@@ -279,7 +279,7 @@ a {
   cursor: pointer;
 }
 .item1:hover ~ .product1-text {
-  text-decoration: underline;
+  text-decoration: 2px underline;
 }
 /*går opp når tablet madia slår inn, ikke opacity på text*/
 .sale-lable {
@@ -367,6 +367,15 @@ hr {
   .product1 .item1 {
     width: 182px;
     height: 219px;
+    margin-left: 25px ;
+    margin-right: 25px;
+  }
+  .sale-lable {
+    left: 30px;
+    }
+  .h2-text {
+    padding-left: 25px;
+    
   }
 }
 
