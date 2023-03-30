@@ -1,0 +1,217 @@
+.shopnow-learnmore {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.background-image {
+  margin-top: 25px;
+  width: 1800px;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.h1-text {
+  position: absolute;
+  padding-top: 180px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.buttons-shopnow-learnmore ul {
+  display: flex;
+  gap: 25vw;
+  position: relative;
+  padding-top: 21.5em;
+  padding-bottom: 100px;
+}
+
+.buttons-shopnow-learnmore button {
+  color: white;
+  background-color: #325b68;
+  border: none;
+  font-size: 1.7em;
+  padding: 0.6em;
+  border-radius: 0.3em;
+}
+
+.buttons-shopnow-learnmore a {
+  padding: 0.6em;
+  margin: -0.6em;
+}
+
+.buttons-shopnow-learnmore button :hover {
+  background-color: #1dac45;
+  border-radius: 0.3em;
+}
+
+.buttons-shopnow-learnmore button :active {
+  background-color: black;
+  border-radius: 0.3em;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-product {
+  width: 1800px;
+  max-width: 100%;
+  height: 1400px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1.5px solid #325b68;
+  overflow-x: hidden;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/images/tobias-keller-73F4pKoUkM0-unsplash.jpg);
+}
+.h2-text {
+  display: flex;
+  justify-content: flex-start;
+  color: #325b68;
+  z-index: 2;
+  padding-top: 75px;
+  padding-left: 50px;
+  font-size: 1.1em;
+}
+.product1-container {
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.product1 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.item1 {
+  width: 282px;
+  height: 319px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #325b68;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item1:hover ~ .product1-text {
+  text-decoration: 2px underline;
+}
+.item1:hover ~ .product2-text {
+  text-decoration: 2px underline;
+}
+
+.sale-lable {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 52px;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+}
+
+.product1-text {
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  color: #325b68;
+}
+
+.product2-text {
+  display: flex;
+  margin-top: -20px;
+  margin-left: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  color: #325b68;
+}
+
+.product1-text:hover {
+  text-decoration: 2px underline;
+}
+
+.product2-text:hover {
+  text-decoration: 2px underline;
+}
+
+.strike-tag {
+  text-decoration: line-through;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+
+hr {
+  display: #325b68;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1.5px;
+}
+
+/*phone*/
+@media only screen and (max-width: 480px) {
+  .h1-text {
+    font-size: 0.8em;
+    padding-top: 200px;
+  }
+
+  .buttons-shopnow-learnmore button {
+    font-size: 1.2em;
+  }
+  .product1 .item1 {
+    width: 182px;
+    height: 219px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .product1-text {
+    margin-left: 25px;
+  }
+  .product2-text {
+    margin-left: 25px;
+  }
+  .sale-lable {
+    left: 30px;
+  }
+  .h2-text {
+    padding-left: 25px;
+  }
+  .background-product {
+    height: 1250px;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .h1-text {
+    font-size: 1em;
+    padding-top: 200px;
+  }
+  .buttons-shopnow-learnmore button {
+    font-size: 1.4em;
+  }
+}
