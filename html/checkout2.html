@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <meta name="description"
         content="Rainydays, jackets designed for a range of different outdoors activities that enrich people's lives." />
     <title>Checkout2|Rainydays</title>
-    <link rel="stylesheet" href="/css/checkout1.css">
+    <link rel="stylesheet" href="/css/checkout2.css">
     <link rel="stylesheet" href="/css/header_footer.css">
     <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
     <header>
         <input type="checkbox" id="toggle-hamburger">
@@ -49,33 +51,122 @@
                             alt="RainydaysLogo"></a>
                 </div>
                 <ul class="buttons-top-bar2">
-                    <li><button class="profil-icon"> <a href="profil.html"><i class="fa-regular fa-user"></i></a></button></li>
-                    <li><button class="cart-icon"><a href="checkout1.html"><i class="fa-solid fa-cart-shopping"></i></a></button></li>
+                    <li><button class="profil-icon"> <a href="profil.html"><i
+                                    class="fa-regular fa-user"></i></a></button></li>
+                    <li><button class="cart-icon"><a href="checkout1.html"><i
+                                    class="fa-solid fa-cart-shopping"></i></a></button></li>
                 </ul>
             </div>
 
         </nav>
     </header>
     <main>
-        <!--bruk ol på chceckout 3, og bruk h1 på den akutelle texten-->
         <section class="stage">
             <div class="stage-container">
-                <div class="circle-text">
-                    <div class="circle1"></div>
-                    <h1>Information</h1>
-                </div>
+                <a href="checkout1.html">
+                    <div class="circle-text1">
+                        <div class="circle1"></div>
+                        <p class="information">Information</p>
+                    </div>
+                </a>
                 <div class="line"></div>
                 <div class="circle-text2">
                     <div class="circle2"></div>
-                    <p>Payment</p>
+                    <h1>Payment</h1>
                 </div>
                 <div class="line"></div>
-                <div class="circle-text2">
-                    <div class="circle2"></div>
+                <div class="circle-text3">
+                    <div class="circle3"></div>
                     <p>Complete</p>
                 </div>
             </div>
         </section>
+        <div class="flex-wrapper">
+            <div class="information-container">
+                <form action="/html/checkout3.html">
+                    <div class="row">
+                        <div class="col">
+                            <div class="icon-h2">
+                                <i class="fa-solid fa-user fa-xl"></i>
+                                <h2>Payment</h2>
+                            </div>
+                            <hr class="hr-left">
+                            <div class="cards-text-container">
+                                <div class="cards-text-container2">
+                                    <img class="icon" src="/images/Icons/206684_visa_method_card_payment_icon.svg"
+                                        alt="Payment-Visa">
+                                    <p>Visa</p>
+                                </div>
+                                <div class="cards-text-container2">
+                                    <img class="icon"
+                                        src="/images/Icons/206686_network_payment_discover_card_method_icon.svg"
+                                        alt="Payment-Discover">
+                                    <p>Discover</p>
+                                </div>
+                                <div class="cards-text-container2">
+                                    <img class="icon"
+                                        src="/images/Icons/2908223_bank_card_credit_debit_mastercard_icon.svg"
+                                        alt="Payment-Mastercard">
+                                    <p>MasterCard</p>
+                                </div>
+                            </div>
+                            <hr class="hr-left">
+                            <div class="input">
+                                <lable>Card number</lable>
+                                <input type="number">
+                            </div>
+                            <div class="input">
+                                <lable>Name on card</lable>
+                                <input type="text">
+                            </div>
+                            <div class="date-code">
+                                <div class="input">
+                                    <lable>Expiration date (MM/YY)</lable>
+                                    <input type="month">
+                                </div>
+                                <div class="input1">
+                                    <lable>Security code <span><img class="securitycode-icon"
+                                                src="/images/Icons/1933700_credit card_csc_cv2_cvc_cvv_icon.svg"></span>
+                                    </lable>
+                                    <input type="password" maxlength="4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <div class="col">
+                            <div class="col1">
+                                <div class="icon-h2">
+                                    <i class="fa-solid fa-truck-fast fa-xl"></i>
+                                    <h2>Summary</h2>
+                                </div>
+                                <p>$ 99.00 USD</p>
+                            </div>
+                            <hr class="hr-right">
+                            <div class="col1">
+                                <div class="jacket-container">
+                                    <a href="/html/product.html"><img class="jacket" src="/images/RainyDays_Jacket6.png"
+                                            alt="Jacket"></a>
+                                </div>
+                                <p>$ 99.00 USD</p>
+                            </div>
+                            <hr class="hr-right">
+                            <div class="col1">
+                                <h2>Total</h2>
+                                <p class="total">$ 99.00 USD</p>
+                            </div>
+                            <hr class="hr-right">
+                            <div class="submit-flex">
+                                <button>
+                                    <input id="submit-button" type="submit" value="Pay now">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
     </main>
     <footer>
         <div class="icons-container">
@@ -87,13 +178,14 @@
                     alt="Payment-Mastercard">
             </div>
             <div class="iconsleft-container">
-                <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook logo_icon.svg"
-                    alt="Facbook-link">
+                <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook logo_icon.svg" alt="Facbook-link">
                 <img class="icon2" src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg"
                     alt="Twitter-link">
             </div>
         </div>
     </footer>
-    
+    </div>
+
 </body>
+
 </html>

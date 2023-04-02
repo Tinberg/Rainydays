@@ -24,8 +24,7 @@
   position: relative;
   font-size: 1.5em;
   width: 1805px;
-  border: inset;
-  border-color: #325b68;
+  border: groove 2px #325b68;
   border-radius: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
