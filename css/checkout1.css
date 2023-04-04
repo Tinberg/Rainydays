@@ -20,8 +20,14 @@
   border-radius: 50%;
   flex-direction: column;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.circle-text {
+.circle1 p {
+  color: white;
+}
+.circle-text1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +35,7 @@
   position: relative;
   left: 15px;
 }
-.circle-text h1 {
+.circle-text1 h1 {
   font-size: 1.6em;
 }
 .circle2 {
@@ -39,6 +45,12 @@
   border-radius: 50%;
   flex-direction: column;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle2 p {
+  color: white;
 }
 .circle-text2 {
   display: flex;
@@ -47,7 +59,7 @@
   color: #325b68;
 }
 
-.circle-text2 p {
+.payment-complete {
   font-size: 1.6em;
   font-weight: bolder;
   color: rgba(50, 91, 104, 0.2);
@@ -181,20 +193,18 @@ input {
 
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
-  .circle1 {
-    width: 70px;
-    height: 70px;
-  }
+  .circle1,
   .circle2 {
-    height: 70px;
     width: 70px;
+    height: 70px;
   }
+
   .line {
     height: 7px;
     width: 100px;
     top: 34px;
   }
-  .circle-text h1 {
+  .circle-text1 h1 {
     font-size: 1.1em;
   }
   .circle-text2 p {
@@ -233,26 +243,23 @@ input {
 
 /*phone*/
 @media only screen and (max-width: 480px) {
-  .circle1 {
-    width: 50px;
-    height: 50px;
-  }
+  .circle1,
   .circle2 {
-    height: 50px;
     width: 50px;
+    height: 50px;
   }
+
   .line {
     height: 7px;
     width: 50px;
     top: 24px;
   }
-  .circle-text h1 {
-    font-size: 0.8em;
-  }
+  .circle-text1 h1,
   .circle-text2 p {
     font-size: 0.8em;
   }
-  .circle-text {
+
+  .circle-text1 {
     left: 5px;
   }
   #submit-button {

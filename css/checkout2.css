@@ -30,12 +30,7 @@ h1 {
   position: relative;
   left: 15px;
 }
-.circle-text2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #325b68;
-}
+.circle-text2,
 .circle-text3 {
   display: flex;
   flex-direction: column;
@@ -43,28 +38,30 @@ h1 {
   color: #325b68;
 }
 
-.circle-text1 p {
+.complete,
+.information {
   font-size: 1.6em;
   font-weight: bolder;
   color: rgba(50, 91, 104, 0.2);
 }
-.circle-text2 p {
-  font-size: 1.6em;
-  font-weight: bolder;
-  color: rgba(50, 91, 104, 0.2);
+.circle2 p,
+.circle3 p {
+  color: white;
 }
-.circle-text3 p {
-  font-size: 1.6em;
-  font-weight: bolder;
-  color: rgba(50, 91, 104, 0.2);
-}
-.circle1 {
+.circle1,
+.circle3 {
   height: 100px;
   width: 100px;
   background-color: rgba(50, 91, 104, 0.2);
   border-radius: 50%;
   flex-direction: column;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-check {
+  color: white;
 }
 .circle2 {
   height: 100px;
@@ -73,27 +70,15 @@ h1 {
   border-radius: 50%;
   flex-direction: column;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.circle3 {
-  height: 100px;
-  width: 100px;
-  background-color: rgba(50, 91, 104, 0.2);
-  border-radius: 50%;
-  flex-direction: column;
-  margin-bottom: 30px;
-}
-
-.information:hover {
-  color: #1dac45;
-}
-.information:hover ~ .circle1 {
+.circle-text1:hover .circle1 {
   background-color: #1dac45;
 }
-.circle1:hover {
-  background-color: #1dac45;
-}
-.circle1:hover ~ .information {
+.circle-text1:hover .information {
   color: #1dac45;
 }
 
@@ -280,17 +265,11 @@ input {
 
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
-  .circle1 {
-    width: 70px;
-    height: 70px;
-  }
-  .circle2 {
-    height: 70px;
-    width: 70px;
-  }
+  .circle1,
+  .circle2,
   .circle3 {
-    height: 70px;
     width: 70px;
+    height: 70px;
   }
 
   .line {
@@ -301,12 +280,11 @@ input {
   .circle-text2 h1 {
     font-size: 1.1em;
   }
-  .circle-text1 p {
-    font-size: 1.1em;
-  }
+  .circle-text1 p,
   .circle-text3 p {
     font-size: 1.1em;
   }
+
   h2 {
     font-size: 1.2em;
   }
@@ -360,18 +338,13 @@ input {
 
 /*phone*/
 @media only screen and (max-width: 480px) {
-  .circle1 {
-    width: 50px;
-    height: 50px;
-  }
-  .circle2 {
-    height: 50px;
-    width: 50px;
-  }
+  .circle1,
+  .circle2,
   .circle3 {
-    height: 50px;
     width: 50px;
+    height: 50px;
   }
+
   .line {
     height: 7px;
     width: 50px;
@@ -380,9 +353,7 @@ input {
   .circle-text2 h1 {
     font-size: 0.8em;
   }
-  .circle-text1 p {
-    font-size: 0.8em;
-  }
+  .circle-text1 p,
   .circle-text3 p {
     font-size: 0.8em;
   }
