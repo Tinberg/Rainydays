@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <meta name="description"
         content="Rainydays, jackets designed for a range of different outdoors activities that enrich people's lives." />
     <title>Product|Rainydays</title>
-    <link rel="stylesheet" href="/css/checkout1.css">
+    <link rel="stylesheet" href="/css/product.css">
     <link rel="stylesheet" href="/css/header_footer.css">
     <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
     <header>
         <input type="checkbox" id="toggle-hamburger">
@@ -49,15 +51,69 @@
                             alt="RainydaysLogo"></a>
                 </div>
                 <ul class="buttons-top-bar2">
-                    <li><button class="profil-icon"> <a href="profil.html"><i class="fa-regular fa-user"></i></a></button></li>
-                    <li><button class="cart-icon"><a href="checkout1.html"><i class="fa-solid fa-cart-shopping"></i></a></button></li>
+                    <li><button class="profil-icon"> <a href="profil.html"><i
+                                    class="fa-regular fa-user"></i></a></button></li>
+                    <li><button class="cart-icon"><a href="checkout1.html"><i
+                                    class="fa-solid fa-cart-shopping"></i></a></button></li>
                 </ul>
             </div>
 
         </nav>
     </header>
     <main>
-        
+        <section class="product-container">
+            <div class="background-container">
+                <div class="row">
+                    <div class="col">
+                        <div class="product-container1">
+                            <img class="product-img" src="/images/RainyDays_Jacket6.png" alt="Product-Jacket">
+                            <p>Product description</p>
+                            <div class="description-background">
+                            <ul class="product-description">
+                                <li>High visible reflectiv panels</li>
+                                <li>AQUAGUARD zipper</li>
+                                <li>Gore-Text preformance shell provides breathable comfort and durably waterproof
+                                    protection, designed for a wide range of outdoor activities</li>
+                                <li>High neck with hook-and-loop closure</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-container2">
+                            <h1>Scott-Gore-Text Performance shell</h1>
+                            <p>$99.00 USD</p>
+                            <img class="mini-img" src="/images/RainyDays_Jacket6.png">
+                            <hr>
+                            <p>Select size</p>
+                            <form class="radio" action="/html/checkout1.html">
+                                <div class="radio-container">
+                                    <div class="line1">
+                                        <input type="radio" id="s" value="S" name="size">
+                                        <label for="s">S</label>
+                                        <input type="radio" id="m" value="M" name="size" checked="checked">
+                                        <label for="m">M</label>
+                                        <input type="radio" id="l" value="L" name="size">
+                                        <label for="l">L</label>
+                                        <input type="radio" id="xl" value="XL" name="size">
+                                        <label for="xl">XL</label>
+                                        <input type="radio" id="xxl" value="XXL" name="size">
+                                        <label for="xxl">XXL</label>
+                                    </div>
+                                    <div class="line2">
+                                        <button id="submit-button" type="submit">Add to cart</button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
         <div class="icons-container">
@@ -69,13 +125,13 @@
                     alt="Payment-Mastercard">
             </div>
             <div class="iconsleft-container">
-                <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook logo_icon.svg"
-                    alt="Facbook-link">
+                <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook logo_icon.svg" alt="Facbook-link">
                 <img class="icon2" src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg"
                     alt="Twitter-link">
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
