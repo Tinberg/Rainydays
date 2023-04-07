@@ -1,15 +1,18 @@
 
-.section-container {
+.img-text {
     display: flex;
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .background-img {
+    margin: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     margin-top: 25px;
   width: 1800px;
   max-width: 100%;
@@ -17,7 +20,6 @@
   max-height: 100%;
   background-position: center;
   border-radius: 5px;
-  position: relative;
   background-repeat:no-repeat;
   background-size: 100% auto;
   background-image: url(/images/willian-justen-de-vasconcellos-T_Qe4QlMIvQ-unsplash.jpg);
@@ -28,5 +30,84 @@
 h1 {
    color: white;
    font-size: 2.5em;
+}
+.about-text-container {
+    display: flex;
+    justify-content: center;
     
+}
+h2 {
+    font-size: 1.5em;
+}
+.h2-top {
+   margin-top: 50px;
+}
+h3{
+    margin-top: 125px;
+    margin-bottom: 150px;
+    font-size: 1.3em;
+}
+.about-text p {
+    font-size: 2em;
+}
+
+.about-text {
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: #f6f6f6;
+    border: groove 1px #325b68;
+    border-radius: 5px;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*tablet and phone*/
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .h2-top {
+        margin-top: 25px;
+    }
+    h3 {
+        font-size: 1.15em;
+    }
+    h3{
+        margin-top: 100px;
+        margin-bottom: 125px;
+        }
+    .background-img {
+        height: 320px;
+    }
+    .about-text p {
+        font-size: 1.7em;
+    }
+}
+
+/*phone*/
+@media only screen and (max-width: 480px) {
+    .background-img {
+        height: 210px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .about-text p {
+        font-size: 1.4em;
+    }
+
 }
