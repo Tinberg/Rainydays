@@ -145,6 +145,9 @@ a {
   border-radius: 0.3em;
   border: none;
 }
+.profil-icon:hover {
+  transform: scale(1.1)
+}
 .profil-icon a {
   padding-right: 0.8em;
   padding-left: 0.8em;
@@ -164,6 +167,10 @@ a {
   border-radius: 0.3em;
   border: none;
 }
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
 
 .cart-icon a {
   padding: 0.62em;

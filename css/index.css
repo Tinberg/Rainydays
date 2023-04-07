@@ -47,6 +47,7 @@
 .buttons-shopnow-learnmore button :hover {
   background-color: #1dac45;
   border-radius: 0.3em;
+  transition: .8s;
 }
 
 .buttons-shopnow-learnmore button :active {

@@ -145,6 +145,7 @@ input {
 .jacket {
   width: 120px;
   height: 120px;
+  object-fit: contain;
 }
 
 .vertical-line {
@@ -183,6 +184,7 @@ input {
 }
 #submit-button:hover {
   background-color: #1dac45;
+  transition: .8s;
 }
 .submit-flex {
   display: flex;
@@ -224,7 +226,7 @@ input {
   }
 }
 
-/*content-checkout*/
+/*breakpoint-checkout*/
 @media only screen and (max-width: 677px) {
   .submit-flex {
     top: 0;
