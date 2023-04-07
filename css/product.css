@@ -182,11 +182,16 @@ hr {
 }
 #submit-button {
   min-width: 250px;
-  
   font-size: 1.3em;
 }
 .radio label {
   padding: 15px 15px;
   margin: min(2px);
-  
+}
+.product-container1 p {
+  font-size: 1.3em;
+}
+.product-container1 li{
+  font-size: 1em;
+}
 }
