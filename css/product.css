@@ -113,13 +113,18 @@ h1 {
   border: 1px solid #325b68;
   border-radius: 5px;
   cursor: pointer;
-  margin: min(5px);
+  margin: min(10px);
 }
 .line1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin-bottom: 50px;
 }
+.line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 #submit-button {
   background-color: #325b68;
   width: 30vw;
@@ -142,10 +147,11 @@ hr {
 }
 
 /*breakpoint-product*/
-@media only screen and (max-width: 1248px){
+@media only screen and (max-width: 1298px){
     .background-container {
         height: 1700px;
     }
+   
 
 }
 /*tablet and phone*/
@@ -154,13 +160,33 @@ hr {
         width: 425px;
         height: 425px;
     }
-    .product-container1 p {
-        font-size: 1.2em;
+    .radio label {
+      padding: 30px 30px;
+      margin: min(5px);
+    }
+    #submit-button {
+      min-width: 380px;
+      height: 60px;
 
     }
-  
+    .background-container {
+      height: 1500px;
+    }
 }
 
 /*phone*/
 @media only screen and (max-width: 480px) {
+  .product-img {
+    width: 250px;
+    height: 250px;
+}
+#submit-button {
+  min-width: 250px;
+  height: 50px;
+  font-size: 1.4em;
+}
+.radio label {
+  padding: 15px 15px;
+  margin: min(2px);
+}
 }
