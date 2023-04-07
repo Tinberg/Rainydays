@@ -182,11 +182,11 @@ hr {
 }
 #submit-button {
   min-width: 250px;
-  height: 50px;
-  font-size: 1.4em;
+  
+  font-size: 1.3em;
 }
 .radio label {
   padding: 15px 15px;
   margin: min(2px);
-}
+  
 }
