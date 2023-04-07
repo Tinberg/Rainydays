@@ -77,6 +77,7 @@ h1 {
   border: 1.5px solid #325b68;
   border-radius: 5px;
   object-fit: contain;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .mini-img {
   width: 125px;
@@ -85,6 +86,7 @@ h1 {
   object-fit: contain;
   border: groove 1px #325b68;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .radio {
@@ -193,5 +195,8 @@ hr {
 }
 .product-container1 li{
   font-size: 1em;
+}
+.background-container {
+  height: 1350px;
 }
 }
