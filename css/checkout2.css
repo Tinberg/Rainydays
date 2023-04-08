@@ -207,6 +207,7 @@ input {
 }
 .date-code .input {
   min-width: 259px;
+  margin: min(10px);
 }
 
 .securitycode-icon {
@@ -281,7 +282,7 @@ input {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 160px;
+  top: 140px;
 }
 
 /*tablet and phone*/
@@ -323,7 +324,7 @@ input {
     width: 50px;
   }
   .submit-flex {
-    top: 230px;
+    top: 210px;
   }
   .input1 {
     bottom: 11px;
@@ -351,12 +352,16 @@ input {
   .hr-summary {
     display: block;
   }
+  .submit-flex {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
 }
 
 /*content-checkout2*/
-@media only screen and (min-width: 769px) and (max-width: 1158px) {
+@media only screen and (min-width: 769px) and (max-width: 1198px) {
   .submit-flex {
-    top: 260px;
+    top: 240px;
   }
 }
 

@@ -77,10 +77,12 @@
 }
 .password {
   text-decoration: underline;
+  cursor: pointer;
 }
 .create-account span {
   text-decoration: underline;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /*tablet and phone*/

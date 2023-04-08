@@ -258,6 +258,10 @@ input {
   .hr-summary {
     display: block;
   }
+  .submit-flex {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
 }
 
 /*phone*/
