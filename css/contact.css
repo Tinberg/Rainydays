@@ -1,16 +1,14 @@
-
-.section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
   width: 1800px;
   max-width: 100%;
   height: 500px;
@@ -18,15 +16,106 @@
   background-position: center;
   border-radius: 5px;
   position: relative;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   background-image: url(/images/eddy-billard-42nzwGteFgI-unsplash.jpg);
-
+}
+.contact-text-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-text {
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background-color: #f6f6f6;
+  border: groove 1px #325b68;
+  border-radius: 5px;
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  text-decoration: underline;
 }
 
-
 h1 {
-   color: white;
-   font-size: 2.5em;
-    
+  color: white;
+  font-size: 2.5em;
+}
+h2 {
+  color: #325b68;
+  margin: 25px;
+  font-size: 1.7em;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form lable {
+  color: #325b68;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.contact-form input {
+  width: 42vw;
+  padding: 15px;
+  border: groove 1px #325b68;
+}
+.contact-form input:focus {
+  border: groove 2px #325b68;
+}
+.large-text {
+  line-height: 80px;
+ 
+}
+.send-button {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #325b68;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.send-button:hover{
+  background-color: #1dac45;
+  transition: .8s;
+}
+
+/*tablet and phone*/
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.24em;
+  }
+  .background-img {
+    height: 320px;
+  }
+  .contact-form lable {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+/*phone*/
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .background-img {
+    height: 210px;
+  }
+  .contact-form lable {
+    font-size: 1.1em;
+  }
+  .send-button {
+    font-size: 1.3em;
+  }
+
 }

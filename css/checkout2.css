@@ -77,9 +77,11 @@ h1 {
 
 .circle-text1:hover .circle1 {
   background-color: #1dac45;
+  transition: .8s;
 }
 .circle-text1:hover .information {
   color: #1dac45;
+  transition: .8s;
 }
 
 .line {
