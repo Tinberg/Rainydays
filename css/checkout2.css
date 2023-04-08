@@ -134,6 +134,12 @@ h1 {
   align-items: center;
   gap: 10px;
 }
+.fa-credit-card {
+  font-size: 1.5em;
+}
+.icon-h2 .fa-cart-shopping {
+  font-size: 1.5em;
+}
 .cards-text-container {
   display: flex;
   justify-content: space-around;

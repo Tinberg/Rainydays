@@ -146,7 +146,7 @@ a {
   border: none;
 }
 .profil-icon:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 .profil-icon a {
   padding-right: 0.8em;
@@ -170,7 +170,6 @@ a {
 .cart-icon:hover {
   transform: scale(1.1);
 }
-
 
 .cart-icon a {
   padding: 0.62em;

@@ -1,99 +1,95 @@
 .img-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .background-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
-    width: 1800px;
-    max-width: 100%;
-    height: 500px;
-    max-height: 100%;
-    background-position: center;
-    border-radius: 5px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-image: url(/images/eddy-billard-42nzwGteFgI-unsplash.jpg);
-  }
-  .contact-text-container {
-    display: flex;
-    justify-content: center;
-  }
-  .contact-text {
-    padding: 25px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    background-color: #f6f6f6;
-    border: groove 1px #325b68;
-    border-radius: 5px;
-    width: 1600px;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  width: 1800px;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  background-position: center;
+  border-radius: 5px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url(/images/eddy-billard-42nzwGteFgI-unsplash.jpg);
+}
+.contact-text-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-text {
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background-color: #f6f6f6;
+  border: groove 1px #325b68;
+  border-radius: 5px;
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+}
+h2 {
+  color: #325b68;
+  margin: 25px;
+  font-size: 1.7em;
+}
+
+.homepage-button {
+  padding: 30px;
+  width: 25vw;
+  background-color: #325b68;
+  color: white;
+  font-size: 1.7em;
+  border-radius: 5px;
+  margin-top: 125px;
+  cursor: pointer;
+}
+.homepage-button:hover {
+  background-color: #1dac45;
+  transition: 0.8s;
+}
+
+/*tablet and phone*/
+@media only screen and (max-width: 768px) {
   h1 {
-    color: white;
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
   h2 {
-    color: #325b68;
-    margin: 25px;
-    font-size: 1.7em;
-    
+    font-size: 1.24em;
   }
-
+  .background-img {
+    height: 320px;
+  }
   .homepage-button {
-    padding:30px;
-    width: 25vw;
-    background-color: #325b68;
-    color: white;
-    font-size: 1.7em;
-    border-radius: 5px;
-    margin-top: 125px;
-    cursor: pointer;
+    font-size: 1em;
+    width: auto;
   }
-  .homepage-button:hover {
-    background-color: #1dac45;
-    transition: .8s;
-  }
+}
 
-
-  /*tablet and phone*/
-@media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 2.2em;
-    }
-    h2 {
-      font-size: 1.24em;
-    }
-    .background-img {
-      height: 320px;
-    }
-    .homepage-button {
-        font-size: 1em;
-        width: auto;
-    }
-    }
-
-    /*phone*/
+/*phone*/
 @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 1.5em;
-    }
-    .background-img {
-      height: 210px;
-    }
-    .homepage-button {
-       
-        width: auto;
-    }
-
-    }
+  h1 {
+    font-size: 1.5em;
+  }
+  .background-img {
+    height: 210px;
+  }
+  .homepage-button {
+    width: auto;
+  }
+}

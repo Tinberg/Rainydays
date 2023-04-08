@@ -141,6 +141,9 @@ input {
   align-items: center;
   gap: 10px;
 }
+.icon-h2 .fa-cart-shopping {
+  font-size: 1.5em;
+}
 
 .jacket {
   width: 120px;

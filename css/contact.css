@@ -70,7 +70,6 @@ h2 {
 }
 .large-text {
   line-height: 80px;
- 
 }
 .send-button {
   margin-top: 30px;
@@ -81,9 +80,9 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
-.send-button:hover{
+.send-button:hover {
   background-color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 /*tablet and phone*/
@@ -117,5 +116,4 @@ h2 {
   .send-button {
     font-size: 1.3em;
   }
-
 }
