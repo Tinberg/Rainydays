@@ -251,6 +251,17 @@ input {
   margin-bottom: 15px;
   margin-top: 15px;
 }
+.hr-summary {
+  background-color: #325b68;
+  height: 1px;
+  position: relative;
+  bottom: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 15px;
+  display: none;
+
+}
 
 #submit-button {
   background-color: #325b68;
@@ -336,6 +347,9 @@ input {
   }
   .vertical-line {
     visibility: hidden;
+  }
+  .hr-summary {
+    display: block;
   }
 }
 
