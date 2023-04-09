@@ -11,6 +11,15 @@
 a {
   color: white;
 }
+a:focus {
+  outline: auto 5px black;
+}
+button:focus {
+  outline: auto 5px black;
+}
+select:focus {
+  background-color: #f6f6f6;
+}
 
 .navigation-top-bar {
   display: flex;
