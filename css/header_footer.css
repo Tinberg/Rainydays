@@ -11,6 +11,8 @@
 a {
   color: white;
 }
+/* when i was going through focus for keyboard navigation i had a little problem with my anchors. almost every picture or text have margin/paddings, and focus looks weird when i tab through my website
+*/
 a:focus {
   outline: auto 5px black;
 }
