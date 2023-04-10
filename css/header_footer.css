@@ -153,6 +153,7 @@ select:focus {
   padding-bottom: 0.6em;
   border-radius: 0.3em;
   border: none;
+  cursor: pointer;
 }
 .profil-icon:hover {
   transform: scale(1.1);
@@ -175,6 +176,7 @@ select:focus {
   padding: 0.62em;
   border-radius: 0.3em;
   border: none;
+  cursor: pointer;
 }
 .cart-icon:hover {
   transform: scale(1.1);
