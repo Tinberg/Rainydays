@@ -35,27 +35,24 @@ h1 {
   padding-bottom: 100px;
 }
 
-.buttons-shopnow-learnmore button {
+.buttons-shopnow-learnmore .button {
   color: white;
   background-color: #325b68;
   border: none;
   font-size: 1.7em;
   padding: 0.6em;
   border-radius: 0.3em;
-}
-
-.buttons-shopnow-learnmore a {
   padding: 0.6em;
   margin: -0.6em;
 }
 
-.buttons-shopnow-learnmore button :hover {
+.buttons-shopnow-learnmore .button:hover {
   background-color: #1dac45;
   border-radius: 0.3em;
   transition: 0.8s;
 }
 
-.buttons-shopnow-learnmore button :active {
+.buttons-shopnow-learnmore .button:active {
   background-color: black;
   border-radius: 0.3em;
 }
@@ -185,8 +182,8 @@ hr {
     padding-top: 200px;
   }
 
-  .buttons-shopnow-learnmore button {
-    font-size: 1.2em;
+  .buttons-shopnow-learnmore .button {
+    font-size: 1.1em;
   }
   .product1 .item1 {
     width: 182px;
@@ -217,7 +214,7 @@ hr {
     font-size: 1em;
     padding-top: 200px;
   }
-  .buttons-shopnow-learnmore button {
+  .buttons-shopnow-learnmore .button {
     font-size: 1.4em;
   }
 }
