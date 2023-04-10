@@ -164,7 +164,7 @@ h1 {
 .strike-tag {
   text-decoration: line-through;
 }
-span {
+.span-sale {
   color: red;
   font-weight: bold;
 }

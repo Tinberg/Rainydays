@@ -23,7 +23,6 @@ select:focus {
   background-color: #f6f6f6;
 }
 
-
 .navigation-top-bar {
   display: flex;
   justify-content: center;
@@ -87,6 +86,7 @@ select:focus {
 }
 
 .search-bar {
+  display: flex;
   position: relative;
   left: 23.3vw;
   font-size: 1.9em;
@@ -95,24 +95,20 @@ select:focus {
   color: #325b68;
   width: 45px;
   height: 45px;
+  align-items: center;
+  justify-content: center;
 }
 
 .input-search[type="text"] {
+  position: absolute;
   width: 2em;
   transition: width 0.4s ease-in-out;
   height: 2.7em;
   opacity: 0%;
   text-align: left;
   cursor: pointer;
-}
-
-.input-search[type="text"]:focus {
-  width: 15em;
-  opacity: 100%;
-}
-
-.input-search {
-  position: absolute;
+  top: 0;
+  right: 0;
   border-radius: 20px;
   padding: 5px;
   right: 0.1em;
@@ -120,9 +116,9 @@ select:focus {
   font-family: Montserrat, fontawesome;
 }
 
-.magnifying-glass-icon {
-  padding: 4px;
-  text-align: center;
+.input-search[type="text"]:focus {
+  width: 15em;
+  opacity: 100%;
 }
 
 /*Header2*/
