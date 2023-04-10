@@ -21,6 +21,11 @@
   color: white;
   font-size: 1.5em;
 }
+h1 {
+  background-color: rgb(86, 84, 84);
+  border-radius: 5px;
+}
+
 
 .buttons-shopnow-learnmore ul {
   display: flex;
