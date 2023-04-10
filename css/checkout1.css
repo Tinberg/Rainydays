@@ -183,7 +183,6 @@ input {
   margin-right: -20px;
   margin-top: 15px;
   display: none;
-
 }
 
 #submit-button {
@@ -198,7 +197,7 @@ input {
 }
 #submit-button:hover {
   background-color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 .submit-flex {
   display: flex;
