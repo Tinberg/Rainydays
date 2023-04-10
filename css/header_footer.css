@@ -155,8 +155,9 @@ select:focus {
   border: none;
   cursor: pointer;
 }
-.profil-icon:hover {/*fiks dette*/
-  transform: scale(1.1);
+.profil-icon:hover {
+  background-color: #1dac45;
+  transition: 0.8s;
 }
 .profil-icon a {
   padding-right: 0.8em;
@@ -179,7 +180,8 @@ select:focus {
   cursor: pointer;
 }
 .cart-icon:hover {
-  transform: scale(1.1);
+  background-color: #1dac45;
+  transition: 0.8s;
 }
 
 .cart-icon a {
