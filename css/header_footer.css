@@ -155,7 +155,7 @@ select:focus {
   border: none;
   cursor: pointer;
 }
-.profil-icon:hover {
+.profil-icon:hover {/*fiks dette*/
   transform: scale(1.1);
 }
 .profil-icon a {
