@@ -44,7 +44,7 @@
   flex-direction: column;
 }
 
-.login-form lable {
+.login-form label {
   color: #325b68;
   font-size: 1.4em;
   margin-bottom: 15px;
