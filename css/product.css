@@ -18,7 +18,8 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url(/images/tobias-oetiker-xpX6NpnzWDc-unsplash.jpg);
+    url(/images/tobias-oetiker-xpX6NpnzWDc-unsplash-min-compressed.jpg);
+   
 }
 .product-container .background-container .row {
   display: flex;
@@ -39,6 +40,7 @@
   margin-bottom: 20px;
   margin-top: 10px;
   font-size: 1.5em;
+  color: #325b68;
 }
 .description-background {
   background-color: rgba(255, 255, 255, 0.5);
@@ -52,6 +54,7 @@
   list-style: outside;
   margin: 16px;
   font-size: 1.2em;
+  color: #325b68;
 }
 .product-container2 {
   display: flex;
