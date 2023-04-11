@@ -58,6 +58,7 @@ h2 {
   border-radius: 5px;
   margin-top: 125px;
   cursor: pointer;
+  text-align: center;
 }
 .homepage-button:hover {
   background-color: #1dac45;
