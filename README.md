@@ -8,4 +8,4 @@ when i was going through focus for keyboard navigation i had a little problem wi
 
 sjekk radiobutton for tab
 gå gjennom de 2 nettsidene for og sjekke koden og ui
-about og index er ok, 1 feil mellomrom sjekk resten i validation
+about,checkout1 og index er ok, 1 feil mellomrom sjekk resten i validation
