@@ -33,6 +33,9 @@
   cursor: pointer;
   color: #325b68;
 }
+.sort-by:focus {
+  background-color: #f6f6f6;
+}
 
 .product-section {
   display: flex;
