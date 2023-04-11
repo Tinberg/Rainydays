@@ -54,7 +54,7 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-.contact-form lable {
+.contact-form label {
   color: #325b68;
   font-size: 1.4em;
   margin-bottom: 15px;
@@ -64,9 +64,6 @@ h2 {
   width: 42vw;
   padding: 15px;
   border: groove 1px #325b68;
-}
-.contact-form input:focus {
-  border: groove 2px #325b68;
 }
 .large-text {
   line-height: 80px;

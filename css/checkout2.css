@@ -193,12 +193,7 @@ input {
   width: auto;
   border: groove 0.5px #325b68;
 }
-.input input:focus {
-  border: solid 3px #325b68;
-}
-.input1 input:focus {
-  border: solid 3px #325b68;
-}
+
 .date-code {
   display: flex;
   justify-content: space-around;
