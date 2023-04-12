@@ -113,7 +113,7 @@ h1 {
   color: white;
   transition: 0.8s;
 }
-.radio label:focus {
+.radio label:focus:checked {
   border-color: solid black;
   background-color: #325b68;
   color: white;
