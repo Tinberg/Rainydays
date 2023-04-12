@@ -55,19 +55,19 @@
 
 .circle-text1:hover .circle1 {
   background-color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 .circle-text1:hover .text1 {
   color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 .circle-text2:hover .circle2 {
   background-color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 .circle-text2:hover .text2 {
   color: #1dac45;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 .line {

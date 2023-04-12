@@ -19,8 +19,6 @@
       rgba(255, 255, 255, 0.5)
     ),
     url(/images/tobias-keller-73F4pKoUkM0-unsplash-compressed.jpg);
-   
-   
 }
 .product-container .background-container .row {
   display: flex;
@@ -42,9 +40,6 @@
   margin-top: 10px;
   font-size: 1.5em;
   color: #325b68;
-  
-  
-  
 }
 .description-background {
   background-color: rgba(255, 255, 255, 0.5);
@@ -59,7 +54,6 @@
   margin: 16px;
   font-size: 1.2em;
   color: #325b68;
-  
 }
 .product-container2 {
   display: flex;
@@ -70,7 +64,6 @@
 h1 {
   color: #325b68;
 }
-
 
 .product-img {
   width: 600px;
@@ -114,7 +107,7 @@ h1 {
   color: white;
 
 }*/
- 
+
 .radio label {
   padding: 40px 40px;
   background: white;
