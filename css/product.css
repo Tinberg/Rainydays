@@ -113,6 +113,12 @@ h1 {
   color: white;
   transition: 0.8s;
 }
+.radio label:focus {
+  border-color: solid black;
+  background-color: #325b68;
+  color: white;
+
+}
  
 .radio label {
   padding: 40px 40px;
