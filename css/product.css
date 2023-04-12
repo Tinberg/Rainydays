@@ -70,12 +70,7 @@
 h1 {
   color: #325b68;
 }
-.product-container2 p {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 15px;
-  color: #325b68;
-}
+
 
 .product-img {
   width: 600px;
@@ -134,6 +129,13 @@ h1 {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 50px;
+}
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #325b68;
+  margin-bottom: 15px;
 }
 .line2 {
   display: flex;
