@@ -8,5 +8,3 @@ when i was going through focus for keyboard navigation i had a little problem wi
 
 sjekk radiobutton for tab
 sjekk accessebility
-sjekk strls på bilder
-aligne message på contact

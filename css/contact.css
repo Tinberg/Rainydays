@@ -65,8 +65,10 @@ h2 {
   padding: 15px;
   border: groove 1px #325b68;
 }
-.large-text {
-  line-height: 80px;
+.contact-form .large-text {
+  padding-bottom: 80px;
+  
+
 }
 .send-button {
   margin-top: 30px;
