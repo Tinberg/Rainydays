@@ -22,8 +22,10 @@
   font-size: 1.5em;
 }
 h1 {
-  background-color: #325b68;
+  background-color: rgba(50, 91, 104, .7);
   border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .buttons-shopnow-learnmore ul {
@@ -67,7 +69,6 @@ h1 {
   height: 1400px;
   max-height: 100%;
   object-fit: cover;
-  border-radius: 5px;
   border: 1.5px solid #325b68;
   overflow-x: hidden;
   position: relative;
