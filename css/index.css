@@ -22,7 +22,7 @@
   font-size: 1.5em;
 }
 h1 {
-  background-color: rgba(50, 91, 104, .1);
+  background-color: rgba(50, 91, 104, 0.1);
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
@@ -173,6 +173,14 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 1.5px;
+}
+
+/*Firefox*/
+@supports (-moz-appearance: none) {
+  .buttons-shopnow-learnmore .button {
+    padding: 0.6em;
+    margin: 0;
+  }
 }
 
 /*phone*/
