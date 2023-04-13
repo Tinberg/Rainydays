@@ -49,6 +49,7 @@
   max-height: 100%;
   object-fit: cover;
   border: 1.5px solid #325b68;
+  border-radius: 5px 5px 0px 0px;
   overflow-x: hidden;
   position: relative;
   background-image: linear-gradient(

@@ -10,15 +10,15 @@
   max-height: 100%;
   margin-top: 25px;
   object-fit: cover;
-  border-radius: 5px;
   border: 1.5px solid #325b68;
+  border-radius: 5px 5px 0px 0px;
   overflow-x: hidden;
   position: relative;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url(/images/tobias-keller-73F4pKoUkM0-unsplash-compressed.jpg);
+    url(/images/dan-gold-UbS64eogAAU-unsplash.jpg);
 }
 .product-container .background-container .row {
   display: flex;
