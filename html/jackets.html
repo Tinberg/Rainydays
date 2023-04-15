@@ -1,155 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rainydays. All jackets ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rainydays. All jackets " />
     <title>Jackets|Rainydays</title>
-    <link rel="stylesheet" href="/css/jackets.css">
-    <link rel="stylesheet" href="/css/header_footer.css">
-    <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-</head>
+    <link rel="stylesheet" href="/css/jackets.css" />
+    <link rel="stylesheet" href="/css/header_footer.css" />
+    <script
+      src="https://kit.fontawesome.com/0933736d52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <input type="checkbox" id="toggle-hamburger">
-        <nav>
-            <div class="navigation-top-bar">
-                <ul class="nav-list">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="jackets.html">Jackets</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li class="hamburger-only"><a href="profile.html">Profil</a></li>
-                    <li class="hamburger-only"><a href="/index.html"><img class="logo-home-hamburger"
-                                src="/images/RainyDays_Logo.png" alt="RainydaysLogo"> </a></li>
-                </ul>
-                <label aria-label="Hamburger1" class="hamburger" for="toggle-hamburger">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-                <label aria-label="Hamburger2" class="x-hamburger" for="toggle-hamburger">
-                    <i class="fa-solid fa-x"></i>
-                </label>
+      <input type="checkbox" id="toggle-hamburger" />
+      <nav>
+        <div class="navigation-top-bar">
+          <ul class="nav-list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="jackets.html">Jackets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="hamburger-only"><a href="profile.html">Profil</a></li>
+            <li class="hamburger-only">
+              <a href="/index.html"
+                ><img
+                  class="logo-home-hamburger"
+                  src="/images/RainyDays_Logo.png"
+                  alt="RainydaysLogo"
+                />
+              </a>
+            </li>
+          </ul>
+          <label
+            aria-label="Hamburger1"
+            class="hamburger"
+            for="toggle-hamburger"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <label
+            aria-label="Hamburger2"
+            class="x-hamburger"
+            for="toggle-hamburger"
+          >
+            <i class="fa-solid fa-x"></i>
+          </label>
 
-                <div class="cart-icon2">
-                    <a aria-label="Cart-icon" href="checkout1.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <form class="search-bar">
-                    <div><input class="input-search" type="text" placeholder=" &#xf002; Search.."
-                            aria-label="search-bar"></div>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </form>
+          <div class="cart-icon2">
+            <a aria-label="Cart-icon" href="checkout1.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+          <form class="search-bar">
+            <div>
+              <input
+                class="input-search"
+                type="text"
+                placeholder=" &#xf002; Search.."
+                aria-label="search-bar"
+              />
             </div>
-            <div class="navigation-top-bar2">
-                <div>
-                    <a href="/index.html"><img class="logo-home" src="/images/RainyDays_Logo.png"
-                            alt="RainydaysLogo"></a>
-                </div>
-                <ul class="buttons-top-bar2">
-                    <li><a aria-label="Profil-icon" class="profil-icon" href="/html/profile.html"> <i
-                                class="fa-regular fa-user"></i></a></li>
-                    <li><a aria-label="Cart-icon" class="cart-icon" href="/html/checkout1.html"><i
-                                class="fa-solid fa-cart-shopping"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <div class="navigation-top-bar2">
+          <div>
+            <a href="/index.html"
+              ><img
+                class="logo-home"
+                src="/images/RainyDays_Logo.png"
+                alt="RainydaysLogo"
+            /></a>
+          </div>
+          <ul class="buttons-top-bar2">
+            <li>
+              <a
+                aria-label="Profil-icon"
+                class="profil-icon"
+                href="/html/profile.html"
+              >
+                <i class="fa-regular fa-user"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                aria-label="Cart-icon"
+                class="cart-icon"
+                href="/html/checkout1.html"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <div class="h1-text">
-            <h1>All Jackets</h1>
-        </div>
-        <div class="sort-by-container">
-            <select class="sort-by">
-                <option class="sort-by-option">Sort by:</option>
-                <option class="sort-by-option">Sort by: Most popular</option>
-                <option class="sort-by-option">Sort by: Price low to high</option>
-                <option class="sort-by-option">Sort by: Price high to low</option>
-                <option class="sort-by-option">Sort by: Newest</option>
-            </select>
-        </div>
-        <div class="product-section">
-            <div class="background-product">
-                <div class="product1-container">
-                    <div class="product1">
-                        <div><a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket6.png"
-                                    alt="Black medium lightweight jacket">
-                                <p class="product1-text">Scott-Gore-text&nbsp; $ 99.00 USD</p>
-                            </a>
-                        </div>
+      <div class="h1-text">
+        <h1>All Jackets</h1>
+      </div>
+      <div class="sort-by-container">
+        <select class="sort-by">
+          <option class="sort-by-option">Sort by:</option>
+          <option class="sort-by-option">Sort by: Most popular</option>
+          <option class="sort-by-option">Sort by: Price low to high</option>
+          <option class="sort-by-option">Sort by: Price high to low</option>
+          <option class="sort-by-option">Sort by: Newest</option>
+        </select>
+      </div>
+      <div class="product-section">
+        <div class="background-product">
+          <div class="product1-container">
+            <div class="product1">
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket6.png"
+                    alt="Black medium lightweight jacket"
+                  />
+                  <p class="product1-text">Scott-Gore-text&nbsp; $ 99.00 USD</p>
+                </a>
+              </div>
 
-                        <div><a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket5.png" alt="Gray ligthweigth jacket">
-                                <p class="product1-text">Xm-Extreme&nbsp; $ 74.00 USD</p>
-                            </a>
-                        </div>
-                        <div> <a href="/html/product.html"><img class="item1" src="/images/RainyDays_Jacket2.png"
-                                    alt="black lightweight jacket">
-                                <p class="product1-text">Scott-Lightweight&nbsp; $ 49.00 USD</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="product1-container">
-                    <div class="product1">
-                        <div><a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket7.png" alt="Brown wool jacket">
-                                <p class="sale-lable">25%</p>
-                                <p class="product2-text">Patagonia-Wool&nbsp;<s class="strike-tag">$ 69.00
-                                        USD</s>&nbsp;<span class="span-sale">$ 51.75 USD</span></p>
-                            </a>
-                        </div>
-                        <div><a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket4.png"
-                                    alt="black medium lightweight jacket">
-                                <p class="sale-lable">25%</p>
-                                <p class="product2-text">Scott-Water-repellent&nbsp;<s class="strike-tag">$ 79.00
-                                        USD&nbsp;</s><span class="span-sale">$ 59.25 USD</span> </p>
-                            </a>
-                        </div>
-                        <div><a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket1.png" alt="Red and grey jacket">
-                                <p class="sale-lable">25%</p>
-                                <p class="product2-text">1st Watch-Waterproof&nbsp;<s class="strike-tag">$99.00
-                                        USD&nbsp;</s><span class="span-sale">$ 74.25 USD</span></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="product1-container">
-                    <div class="product1">
-                        <div> <a href="/html/product.html">
-                                <img class="item1" src="/images/RainyDays_Jacket3.png" alt="Red lightweight jacket">
-                                <p class="product1-text">Softshell-Light&nbsp;39.00 USD</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket5.png"
+                    alt="Gray ligthweigth jacket"
+                  />
+                  <p class="product1-text">Xm-Extreme&nbsp; $ 74.00 USD</p>
+                </a>
+              </div>
+              <div>
+                <a href="/html/product.html"
+                  ><img
+                    class="item1"
+                    src="/images/RainyDays_Jacket2.png"
+                    alt="black lightweight jacket"
+                  />
+                  <p class="product1-text">
+                    Scott-Lightweight&nbsp; $ 49.00 USD
+                  </p>
+                </a>
+              </div>
             </div>
+          </div>
+          <hr />
+          <div class="product1-container">
+            <div class="product1">
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket7.png"
+                    alt="Brown wool jacket"
+                  />
+                  <p class="sale-lable">25%</p>
+                  <p class="product2-text">
+                    Patagonia-Wool&nbsp;<s class="strike-tag">$ 69.00 USD</s
+                    >&nbsp;<span class="span-sale">$ 51.75 USD</span>
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket4.png"
+                    alt="black medium lightweight jacket"
+                  />
+                  <p class="sale-lable">25%</p>
+                  <p class="product2-text">
+                    Scott-Water-repellent&nbsp;<s class="strike-tag"
+                      >$ 79.00 USD&nbsp;</s
+                    ><span class="span-sale">$ 59.25 USD</span>
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket1.png"
+                    alt="Red and grey jacket"
+                  />
+                  <p class="sale-lable">25%</p>
+                  <p class="product2-text">
+                    1st Watch-Waterproof&nbsp;<s class="strike-tag"
+                      >$99.00 USD&nbsp;</s
+                    ><span class="span-sale">$ 74.25 USD</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="product1-container">
+            <div class="product1">
+              <div>
+                <a href="/html/product.html">
+                  <img
+                    class="item1"
+                    src="/images/RainyDays_Jacket3.png"
+                    alt="Red lightweight jacket"
+                  />
+                  <p class="product1-text">Softshell-Light&nbsp;39.00 USD</p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
     <footer>
-        <div class="icons-container">
-            <div class="iconsright-container">
-                <img class="icon" src="/images/Icons/206684_visa_method_card_payment_icon.svg" alt="Payment-Visa">
-                <img class="icon" src="/images/Icons/206686_network_payment_discover_card_method_icon.svg"
-                    alt="Payment-Discover">
-                <img class="icon" src="/images/Icons/2908223_bank_card_credit_debit_mastercard_icon.svg"
-                    alt="Payment-Mastercard">
-            </div>
-            <div class="iconsleft-container">
-                <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook%20logo_icon.svg" alt="Facbook-link">
-                <img class="icon2" src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg"
-                    alt="Twitter-link">
-            </div>
+      <div class="icons-container">
+        <div class="iconsright-container">
+          <img
+            class="icon"
+            src="/images/Icons/206684_visa_method_card_payment_icon.svg"
+            alt="Payment-Visa"
+          />
+          <img
+            class="icon"
+            src="/images/Icons/206686_network_payment_discover_card_method_icon.svg"
+            alt="Payment-Discover"
+          />
+          <img
+            class="icon"
+            src="/images/Icons/2908223_bank_card_credit_debit_mastercard_icon.svg"
+            alt="Payment-Mastercard"
+          />
         </div>
+        <div class="iconsleft-container">
+          <img
+            class="icon2"
+            src="/images/Icons/5296499_fb_facebook_facebook%20logo_icon.svg"
+            alt="Facbook-link"
+          />
+          <img
+            class="icon2"
+            src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg"
+            alt="Twitter-link"
+          />
+        </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
