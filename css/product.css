@@ -65,6 +65,13 @@ h1 {
   color: #325b68;
 }
 
+.jacket-price {
+  color: #325b68;
+  font-size: 1.3em;
+  padding-top: 10px;
+}
+
+
 .product-img {
   width: 600px;
   height: 600px;
@@ -154,6 +161,12 @@ hr {
   margin-top: 1em;
   background-color: #325b68;
   height: 1.5px;
+}
+
+.error-message {
+  color: red;
+  padding: 25px 50px 50px;
+  font-size: 1.3em;
 }
 
 /*breakpoint-product*/

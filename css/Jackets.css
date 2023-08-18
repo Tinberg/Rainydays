@@ -48,7 +48,6 @@
 .background-product {
   width: 1800px;
   max-width: 100%;
-  
   max-height: 100%;
   object-fit: cover;
   border: 1.5px solid #325b68;
@@ -173,16 +172,25 @@ hr {
   .h1-text {
     font-size: 0.8em;
   }
+  
+.product1-container{
+  display: flex;
+}
 
   .product1 .item1 {
     width: 182px;
     height: 219px;
     margin-left: 25px;
     margin-right: 25px;
+    
   }
  
   .product1-text {
+    margin-top: 15px;
     margin-left: 25px;
+    max-width: 328.86px ;
+    
+  
   }
   .product2-text {
     margin-left: 25px;
