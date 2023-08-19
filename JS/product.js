@@ -10,8 +10,13 @@ const productId = urlParams.get("id");
 async function fetchProductDetails(id) {
     try {
         await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)
+
         const response = await fetch(`https://api.noroff.dev/api/v1/rainy-days/${id}`);
         const jacket = await response.json();
+
+        const discountLabel = jacket.onSale
+            ? `<span class="discount-label">On Sale</span>`
+            : '';
         
 
         jacketContainer.innerHTML = `
@@ -25,13 +30,16 @@ async function fetchProductDetails(id) {
                                 src="${jacket.image}" 
                                 alt="${jacket.title}" 
                             />
-                          
+                            <div class="description-background">
+                            <p><h1>Product description</h1></p>
+                            <div class="product-description">${jacket.description}</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="product-container2">
                             <h1>${jacket.title}</h1> 
-                            <p class="jacket-price">$ ${jacket.price} USD</p> 
+                            <p class="jacket-price">$ ${jacket.discountedPrice || jacket.price} USD ${discountLabel} </p> 
                             <img
                                 class="mini-img"
                                 src="${jacket.image}" 

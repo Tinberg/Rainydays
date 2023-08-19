@@ -59,9 +59,7 @@
   border: groove 0.5px #325b68;
 }
 
-.product-description li {
-  list-style: outside;
-  margin: 16px;
+.product-description {
   font-size: 1.2em;
   color: #325b68;
 }
@@ -173,6 +171,10 @@ hr {
   height: 1.5px;
 }
 
+.discount-label {
+  color: red;
+  font-size: 1.2em;
+}
 .loading-animation {
   display: flex;
   align-items: center;

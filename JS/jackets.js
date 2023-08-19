@@ -9,13 +9,17 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 async function fetchJackets() {
     try {
         await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)
+
         const response = await fetch(url);
         const jackets = await response.json();
-       
 
         let productsHTML = '';
 
         for (const jacket of jackets) {
+            const discountLabel = jacket.onSale
+            ? `<div class="discount-label">On Sale</div>`
+            : '';
+            
             productsHTML += `
             
                 <div class="product1-container">
@@ -27,7 +31,7 @@ async function fetchJackets() {
                                     src="${jacket.image}"
                                     alt="${jacket.title}"
                                 />
-                                <p class="product1-text">${jacket.title}&nbsp; $ ${jacket.price.toFixed(2)} USD</p>
+                                <p class="product1-text">${jacket.title}&nbsp; $ ${jacket.discountedPrice || jacket.price} USD ${discountLabel} </p>
                             </a>
                         </div>
                     </div>
@@ -35,6 +39,7 @@ async function fetchJackets() {
                 
             `;
         }
+      
 
         jacketContainer.innerHTML = `
             <div class="background-product">

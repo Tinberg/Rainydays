@@ -73,7 +73,7 @@
   
 }
 
-.h2-text {
+/* .h2-text {
   display: flex;
   justify-content: flex-start;
   color: #325b68;
@@ -81,7 +81,7 @@
   padding-top: 75px;
   padding-left: 50px;
   font-size: 1.1em;
-}
+} */
 .product1-container {
   overflow-x: auto;
   overscroll-behavior-inline: contain;
@@ -111,11 +111,11 @@
 .item1:hover ~ .product1-text {
   text-decoration: 2px underline;
 }
-.item1:hover ~ .product2-text {
+/* .item1:hover ~ .product2-text {
   text-decoration: 2px underline;
-}
+} */
 
-.sale-lable {
+/* .sale-lable {
   background-color: rgba(255, 255, 255, 0.5);
   width: 35px;
   height: 35px;
@@ -127,7 +127,7 @@
   align-items: center;
   color: red;
   font-weight: bold;
-}
+} */
 
 .product1-text {
   margin-top: 15px;
@@ -137,7 +137,14 @@
   cursor: pointer;
   color: #325b68;
 }
-.product2-text {
+
+.discount-label{
+  color: red;
+  margin-left: 50px;
+  font-size: 1.2em;
+  padding-top: 5px;
+}
+/* .product2-text {
   display: flex;
   margin-top: -20px;
   margin-left: 50px;
@@ -145,21 +152,21 @@
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
-}
+} */
 .product1-text:hover {
   text-decoration: 2px underline;
 }
-.product2-text:hover {
+/* .product2-text:hover {
   text-decoration: 2px underline;
-}
+} */
 
 .strike-tag {
   text-decoration: line-through;
 }
-.span-sale {
+/* .span-sale {
   color: red;
   font-weight: bold;
-}
+} */
 
 hr {
   display: #325b68;
@@ -214,16 +221,18 @@ hr {
     margin-top: 15px;
     margin-left: 25px;
     max-width: 328.86px ;
-    
-  
   }
-  .product2-text {
+
+  .discount-label {
+    margin-left: 25px;
+  }
+  /* .product2-text {
     margin-left: 25px;
   }
 
   .sale-lable {
     left: 30px;
-  }
+  } */
 
   .sort-by {
     font-size: 1.2em;
