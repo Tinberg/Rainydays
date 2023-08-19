@@ -1,13 +1,18 @@
 const jacketContainer = document.querySelector(".product-container");
 
+jacketContainer.innerHTML = `<div class="loading-animation">
+<div class="loader"></div>
+</div>`;
+
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get("id");
 
 async function fetchProductDetails(id) {
     try {
+        await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)
         const response = await fetch(`https://api.noroff.dev/api/v1/rainy-days/${id}`);
         const jacket = await response.json();
-        console.log(jacket);
+        
 
         jacketContainer.innerHTML = `
         <section class="product-container">
@@ -58,7 +63,7 @@ async function fetchProductDetails(id) {
     }
 
     catch (error) {
-        console.error("an error occurred:", error);
+        
 
         const errorMessage = document.createElement("p");
         errorMessage.textContent = "An error occurred while fetching data.";

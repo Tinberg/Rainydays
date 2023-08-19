@@ -6,7 +6,7 @@ async function fetchJackets() {
     try {
         const response = await fetch(url);
         const jackets = await response.json();
-        console.log(jackets)
+       
 
         let productsHTML = '';
 
@@ -37,7 +37,7 @@ async function fetchJackets() {
             </div>
         `;
     } catch (error) {
-        console.error("An error occurred:", error);
+        
 
         const errorMessage = document.createElement("p");
         errorMessage.textContent = "An error occurred while fetching data.";
