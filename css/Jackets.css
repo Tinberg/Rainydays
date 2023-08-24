@@ -132,12 +132,19 @@
 .product1-text {
   margin-top: 15px;
   margin-left: 50px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
 }
 
+
+.original-price{
+  text-decoration: line-through;
+  margin-left: 50px;
+  color: #325b68;
+  font-size: 1.2em;
+}
 .discount-label{
   color: red;
   margin-left: 50px;
@@ -223,6 +230,11 @@ hr {
     max-width: 328.86px ;
   }
 
+ 
+
+  .original-price{
+    margin-left: 25px;
+  }
   .discount-label {
     margin-left: 25px;
   }

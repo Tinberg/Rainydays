@@ -17,8 +17,13 @@ async function fetchProductDetails(id) {
         const discountLabel = jacket.onSale
             ? `<span class="discount-label">On Sale</span>`
             : '';
-        
 
+        const originalPrice = jacket.onSale
+            ? `<div class="original-price">$ ${jacket.price} USD</div>`
+            : '';   
+            
+
+    
         jacketContainer.innerHTML = `
         <section class="product-container">
             <div class="background-container">
@@ -39,7 +44,7 @@ async function fetchProductDetails(id) {
                     <div class="col">
                         <div class="product-container2">
                             <h1>${jacket.title}</h1> 
-                            <p class="jacket-price">$ ${jacket.discountedPrice || jacket.price} USD ${discountLabel} </p> 
+                            <p class="jacket-price">$ ${jacket.discountedPrice || jacket.price} USD ${originalPrice} ${discountLabel} </p> 
                             <img
                                 class="mini-img"
                                 src="${jacket.image}" 

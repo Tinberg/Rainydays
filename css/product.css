@@ -14,7 +14,6 @@
   align-items: center;
 }
 .background-container {
-  width: 1800px;
   max-width: 100%;
   height: 1250px;
   max-height: 100%;
@@ -171,6 +170,12 @@ hr {
   height: 1.5px;
 }
 
+.original-price{
+  text-decoration: line-through;
+  color: #325b68;
+  font-size: 1.3em;
+}
+
 .discount-label {
   color: red;
   font-size: 1.2em;
@@ -220,10 +225,11 @@ hr {
   .background-container {
     height: 1500px;
   }
+
 }
 
 /*phone*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 590px) {
   .product-img {
     width: 250px;
     height: 250px;
