@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     productDiv.innerHTML = `
           <div class="jacket-container">
               <img class="jacket" src="${item.image}" alt="${item.title}" />
-              <p>${item.name}</p>
+              <p class="item-name">${item.name}</p>
               <p>$ ${item.price} USD</p>
-              <p>Quantity: <span class="item-quantity">${item.quantity}</span></p>
+              <div class="quantity-container">
               <button type="button" class="increase-qty" data-id="${item.id}">+</button>
+              <p><span class="item-quantity">${item.quantity}</span></p>
               <button type="button" class="decrease-qty" data-id="${item.id}">-</button>
+              </div>
           </div>
       `;
 
@@ -22,12 +24,15 @@ document.addEventListener("DOMContentLoaded", () => {
     productContainer.appendChild(productDiv);
   });
 
+
   const totalContainer = document.createElement("div");
+  totalContainer.classList.add("total-price")
   totalContainer.innerHTML = `
       <h2>Total Price: $ ${overallTotal.toFixed(2)} USD</h2>
   `;
   productContainer.appendChild(totalContainer);
 
+  
   const increaseQtyButtons = document.querySelectorAll(".increase-qty");
   increaseQtyButtons.forEach((button) => {
     button.addEventListener("click", function () {
@@ -42,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
 
 function updateQuantity(id, change) {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];

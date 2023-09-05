@@ -103,6 +103,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  
 }
 .information-container form .row .col1 .total {
   font-weight: 700;
@@ -113,11 +114,20 @@
 
 .information-container form .row .col .jacket-container {
   border: groove 1px #325b68;
-  width: 120px;
+  min-width: 370px;
   background-color: white;
   margin-top: 15px;
   
+  padding: 25px;
 }
+.item-name{
+  padding-bottom: 2px;
+}
+.total-price{
+  padding: 30px;
+}
+
+
 input {
   padding-left: 10px;
 }
@@ -185,7 +195,36 @@ input {
   display: none;
 }
 
-#submit-button {
+.increase-qty, .decrease-qty{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #325b68;
+  color: white;
+}
+.increase-qty{
+  margin-right: 10px;
+}
+.decrease-qty{
+  margin-left: 10px;
+}
+.quantity-container{
+  display: flex;
+  padding-top: 20px;
+  
+}
+
+.item-quantity{
+  padding: 0px 10px;
+  border: 1px solid;
+}
+.container-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
   background-color: #325b68;
   width: 30vw;
   min-width: 300px;
@@ -194,8 +233,9 @@ input {
   cursor: pointer;
   color: white;
   font-size: 1.5em;
+  justify-content: center;
 }
-#submit-button:hover {
+.submit-button:hover {
   background-color: #1dac45;
   transition: 0.8s;
 }
@@ -261,6 +301,9 @@ input {
     margin-top: 25px;
     margin-bottom: 5px;
   }
+  .information-container form .row .col .jacket-container {
+    min-width: 346px;
+  }
 }
 
 /*phone*/
@@ -297,5 +340,9 @@ input {
   }
   .information-container form .row .col p {
     font-size: 1em;
+  }
+  .information-container form .row .col .jacket-container {
+    min-width: 297px;
+    padding: 10px;
   }
 }
