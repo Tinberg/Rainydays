@@ -7,7 +7,7 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 
 async function fetchJackets() {
     try {
-        await new Promise(resolve => setTimeout(resolve, 2000)); //only to see how the animation is (remove this)
+        // await new Promise(resolve => setTimeout(resolve, 2000)); //only to see how the animation is (remove this)
 
         const response = await fetch(url);
         const jackets = await response.json();
@@ -65,7 +65,21 @@ fetchJackets();
 //i decided to add my html with inner.HTMl insted of creating dynamically created elements. i know it is less secure then creating elements, but in this case i think its a great way to do it. 
 
 
-//This was my first code, but i found out that it is smarter to use i to access the jackets insted of the "for...of" loop like in this exampel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//This was my first code, but i found out that it is smarter in general to use for i loop to access the jackets insted of the "for...of" loop like in this exampel.(This looks more clean)
 
 
 

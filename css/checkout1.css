@@ -102,6 +102,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .information-container form .row .col1 .total {
   font-weight: 700;
@@ -115,6 +116,7 @@
   width: 120px;
   background-color: white;
   margin-top: 15px;
+  
 }
 input {
   padding-left: 10px;
