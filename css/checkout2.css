@@ -273,10 +273,10 @@ input {
   color: white;
 }
 .increase-qty{
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .decrease-qty{
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .quantity-container{
   display: flex;
