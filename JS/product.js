@@ -1,3 +1,4 @@
+//update local storage  with the api details
 function addToCart(jacket) {
   let cartItem = {
     id: jacket.id,
@@ -36,6 +37,7 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get("id");
 
+//fetching api and making HTML
 async function fetchProductDetails(id) {
   try {
     // await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)

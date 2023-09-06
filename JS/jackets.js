@@ -5,6 +5,7 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 <div class="loader"></div>
 </div>`;
 
+//fetching api and making HTML
 async function fetchJackets() {
     try {
         // await new Promise(resolve => setTimeout(resolve, 2000)); //only to see how the animation is (remove this)

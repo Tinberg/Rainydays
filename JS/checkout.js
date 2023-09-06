@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
   const productContainer = document.querySelector("#cart-items");
+  const paymentButton = document.querySelector("#continue-to-payment");
+  const cartMessage = document.querySelector("#cart-message");
   let overallTotal = 0;
 
   cart.forEach((item) => {
@@ -25,6 +27,29 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
+//paymentbutton and text
+
+  paymentButton.addEventListener("click", function() {
+    
+    if (cart.length === 0) {
+        paymentButton.disabled = true;
+        cartMessage.classList.remove("hidden");
+    } else {
+        paymentButton.disabled = false;
+        cartMessage.classList.add("hidden");
+        
+    }
+});
+
+if(cart.length === 0){
+  paymentButton.classList.add("opacity-reduced");
+}
+else{
+  paymentButton.classList.remove("opacity-reduced");
+}
+
+
+//increase and decrease quantity. total price.
   const totalContainer = document.createElement("div");
   totalContainer.classList.add("total-price")
   totalContainer.innerHTML = `

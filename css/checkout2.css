@@ -288,9 +288,24 @@ input {
   padding: 0px 10px;
   border: 1px solid;
 }
+
+.hidden {
+  display: none;
+}
+.cart-message-style {
+  padding-bottom: 15px;
+  color: red;
+  width: 50%;
+  margin: 0 auto;
+}
 .container-submit {
   display: flex;
   justify-content: center;
+}
+
+.opacity-reduced{
+  opacity: 0.5;
+ 
 }
 .submit-button {
   background-color: #325b68;
