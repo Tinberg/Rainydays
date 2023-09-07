@@ -20,7 +20,7 @@
   padding-bottom: 40px;
 }
 h1 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 .circle-text1 {
   display: flex;
@@ -40,7 +40,7 @@ h1 {
 
 .complete,
 .information {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: bolder;
   color: rgba(50, 91, 104, 0.2);
 }
@@ -128,7 +128,7 @@ h1 {
 }
 
 .information-container form .row .col p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .icon-h2 {
   display: flex;
@@ -151,7 +151,7 @@ h1 {
   align-items: center;
   gap: 5px;
   padding-bottom: 10px;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .cards-text-container .icon {
@@ -165,7 +165,7 @@ input {
 .input1 {
   display: flex;
   flex-direction: column;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   position: relative;
   bottom: 10px;
 }
@@ -175,7 +175,7 @@ input {
 .input1 input {
   height: 40px;
   margin-top: 10px;
-  font-size: 1em;
+  font-size: 1rem;
   width: auto;
   border: groove 0.5px #325b68;
 }
@@ -185,12 +185,12 @@ input {
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .input input {
   height: 40px;
   margin-top: 10px;
-  font-size: 1em;
+  font-size: 1rem;
   width: auto;
   border: groove 0.5px #325b68;
 }
@@ -316,7 +316,7 @@ input {
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   
 }
 .submit-button:hover {
@@ -345,24 +345,24 @@ input {
     top: 34px;
   }
   .circle-text2 h1 {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
   .circle-text1 p,
   .circle-text3 p {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   .information-container form .row .col .input {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
   .information-container form .row .col .input1 {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
   .information-container form .row .col p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   .cards-text-container .icon {
     height: 50px;
@@ -436,11 +436,11 @@ input {
     top: 24px;
   }
   .circle-text2 h1 {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .circle-text1 p,
   .circle-text3 p {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 
   .circle-text1 {
@@ -448,21 +448,21 @@ input {
   }
   #submit-button {
     min-width: 250px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
   .information-container form .row .col .input {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .information-container form .row .col .input1 {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .information-container form .row .col p {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .date-code .input {
     min-width: 210px;

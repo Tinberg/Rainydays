@@ -67,7 +67,7 @@ async function fetchProductDetails(id) {
                                 alt="${jacket.title}" 
                             />
                             <div class="description-background">
-                            <p><h1>Product description</h1></p>
+                            <p><h2>Product description</h2></p>
                             <div class="product-description">${
                               jacket.description
                             }</div>

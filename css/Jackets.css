@@ -9,7 +9,7 @@
 .h1-text {
   display: flex;
   justify-content: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .h1-text h1 {
@@ -30,7 +30,7 @@
 }
 .sort-by {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   width: 1805px;
   border: groove 2px #325b68;
   border-radius: 5px;
@@ -135,7 +135,7 @@
 .product1-text {
   margin-top: 15px;
   margin-left: 50px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
@@ -149,12 +149,12 @@
   text-decoration: line-through;
   margin-left: 50px;
   color: #325b68;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .discount-label{
   color: red;
   margin-left: 50px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   padding-top: 5px;
 }
 /* .product2-text {
@@ -209,13 +209,13 @@ hr {
 .error-message {
   color: red;
   padding: 25px 50px 50px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 /*phone*/
 @media only screen and (max-width: 480px) {
   .h1-text {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   
 .product1-container{
@@ -253,13 +253,13 @@ hr {
   } */
 
   .sort-by {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 }
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .h1-text {
-    font-size: 1em;
+    font-size: 1rem;
   }
   
 }

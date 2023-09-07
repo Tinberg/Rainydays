@@ -44,7 +44,7 @@
 
 h1 {
   color: white;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   background-color: rgba(50, 91, 104, .1);
   padding-left: 5px;
   padding-right: 5px;
@@ -53,7 +53,7 @@ h1 {
 h2 {
   color: #325b68;
   margin: 25px;
-  font-size: 1.7em;
+  font-size: 1.7rem;
 }
 .contact-form {
   display: flex;
@@ -63,7 +63,7 @@ h2 {
 }
 .contact-form label {
   color: #325b68;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   margin-bottom: 15px;
   margin-top: 15px;
   max-width: 940px;
@@ -82,7 +82,7 @@ h2 {
   padding: 20px;
   background-color: #325b68;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   border-radius: 5px;
   cursor: pointer;
   max-width: 940px;
@@ -95,16 +95,16 @@ h2 {
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 2.2em;
+    font-size: 2.2rem;
   }
   h2 {
-    font-size: 1.24em;
+    font-size: 1.24rem;
   }
   .background-img {
     height: 320px;
   }
   .contact-form lable {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -112,15 +112,15 @@ h2 {
 /*phone*/
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .background-img {
     height: 210px;
   }
   .contact-form lable {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
   .send-button {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 }

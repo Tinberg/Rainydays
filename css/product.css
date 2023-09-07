@@ -47,7 +47,7 @@
 .product-container1 p {
   margin-bottom: 20px;
   margin-top: 10px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #325b68;
 }
 .description-background {
@@ -59,7 +59,7 @@
 }
 
 .product-description {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #325b68;
 }
 .product-container2 {
@@ -68,13 +68,13 @@
   margin: 25px;
   margin-top: 50px;
 }
-h1 {
+h1, h2 {
   color: #325b68;
 }
 
 .jacket-price {
   color: #325b68;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   padding-top: 10px;
 }
 
@@ -115,12 +115,7 @@ h1 {
   color: white;
   transition: 0.8s;
 }
-/*.radio label:focus:checked {
-  border-color: solid black;
-  background-color: #325b68;
-  color: white;
 
-}*/
 
 .radio label {
   padding: 40px 40px;
@@ -138,7 +133,7 @@ h1 {
   margin-bottom: 50px;
 }
 legend {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 15px;
   color: #325b68;
@@ -157,7 +152,7 @@ legend {
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 #submit-button:hover {
   background-color: #1dac45;
@@ -173,12 +168,12 @@ hr {
 .original-price{
   text-decoration: line-through;
   color: #325b68;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .discount-label {
   color: red;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .loading-animation {
   display: flex;
@@ -199,7 +194,7 @@ hr {
 .error-message {
   color: red;
   padding: 25px 50px 50px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 /*breakpoint-product*/
@@ -236,17 +231,17 @@ hr {
   }
   #submit-button {
     min-width: 250px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
   .radio label {
     padding: 15px 15px;
     margin: min(2px);
   }
   .product-container1 p {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
   .product-container1 li {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .background-container {
     height: 1350px;

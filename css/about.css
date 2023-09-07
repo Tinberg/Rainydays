@@ -34,7 +34,7 @@ h1 {
   justify-content: center;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .h2-top {
   margin-top: 50px;
@@ -42,10 +42,10 @@ h2 {
 h3 {
   margin-top: 125px;
   margin-bottom: 150px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .about-text p {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .about-text {
@@ -65,16 +65,16 @@ h3 {
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 2.2em;
+    font-size: 2.2rem;
   }
   h2 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
   .h2-top {
     margin-top: 25px;
   }
   h3 {
-    font-size: 1.15em;
+    font-size: 1.15rem;
   }
   h3 {
     margin-top: 100px;
@@ -84,7 +84,7 @@ h3 {
     height: 320px;
   }
   .about-text p {
-    font-size: 1.7em;
+    font-size: 1.7rem;
   }
 }
 
@@ -94,15 +94,15 @@ h3 {
     height: 210px;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   h3 {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .about-text p {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 }
