@@ -58,17 +58,21 @@ h2 {
 .contact-form {
   display: flex;
   flex-direction: column;
+  max-width: 940px;
+  
 }
 .contact-form label {
   color: #325b68;
   font-size: 1.4em;
   margin-bottom: 15px;
   margin-top: 15px;
+  max-width: 940px;
 }
 .contact-form input {
   width: 42vw;
   padding: 15px;
   border: groove 1px #325b68;
+  max-width: 940px;
 }
 .contact-form .large-text {
   padding-bottom: 80px;
@@ -81,6 +85,7 @@ h2 {
   font-size: 1.5em;
   border-radius: 5px;
   cursor: pointer;
+  max-width: 940px;
 }
 .send-button:hover {
   background-color: #1dac45;

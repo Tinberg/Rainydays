@@ -71,6 +71,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   
+  
+ 
 }
 
 /* .h2-text {
@@ -86,6 +88,8 @@
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   margin-top: 75px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product1 {
@@ -93,9 +97,8 @@
   justify-content: space-between;
   padding-bottom: 30px;
   
-  
-  
 }
+
 
 .item1 {
   width: 282px;
@@ -136,6 +139,9 @@
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
+  max-width:375px;
+  
+ 
 }
 
 

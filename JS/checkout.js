@@ -37,8 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         paymentButton.disabled = false;
         cartMessage.classList.add("hidden");
-        
+      
+      if(document.body.getAttribute(`data-page`) === `checkout-page`) {
+        localStorage.clear();
+      }
     }
+    
 });
 
 if(cart.length === 0){

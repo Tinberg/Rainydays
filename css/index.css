@@ -150,6 +150,7 @@ h1 {
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
+  max-width:370px;
 }
 .original-price{
   text-decoration: line-through;

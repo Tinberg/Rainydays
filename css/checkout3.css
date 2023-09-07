@@ -78,10 +78,29 @@
   top: 47px;
   background-color: rgba(50, 91, 104, 0.2);
 }
-.successful-container {
+.successful-bottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.successful-text2 {
+  padding-bottom: 30px;
+}
+
+.back-to-home {
+  
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #325b68;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 940px;
+  
 }
 .successful-col {
   align-items: center;
@@ -90,9 +109,9 @@
   gap: 50px;
   margin-top: 50px;
 }
-.successful-row {
+.successful-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 

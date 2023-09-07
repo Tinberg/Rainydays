@@ -262,6 +262,12 @@ input {
   position: relative;
   top: 455px;
 }
+/*big screens*/
+@media only screen and (min-width: 2900px){
+  .cart-message-style {
+    width: 15%;
+  }
+}
 
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
