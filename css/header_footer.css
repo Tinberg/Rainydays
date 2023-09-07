@@ -7,6 +7,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 a {
   color: white;
 }
@@ -45,7 +49,7 @@ a {
   cursor: pointer;
 }
 
-.mobil-cart {
+.header-shopping-icon {
   padding-right: 5px;
 }
 
@@ -61,7 +65,7 @@ a {
 }
 
 .navigation-top-bar a {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding: 0.45em 0.9em 0.45em;
   position: relative;
   left: 1em;
@@ -69,7 +73,7 @@ a {
 
 .navigation-top-bar a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.3em;
+  text-underline-offset: 0.3rem;
 }
 
 .navigation-top-bar a:active {
@@ -80,7 +84,7 @@ a {
   display: flex;
   position: relative;
   left: 23.3vw;
-  font-size: 1.9em;
+  font-size: 1.9rem;
   background-color: white;
   border-radius: 50%;
   color: #325b68;
@@ -112,8 +116,8 @@ a {
   opacity: 100%;
 }
 
-/*Header2*/
-.navigation-top-bar2 {
+/*Navigation drawer*/
+.navigation-drawer {
   display: flex;
   align-items: center;
   justify-content: center;
