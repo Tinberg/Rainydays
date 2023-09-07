@@ -115,6 +115,7 @@ async function fetchProductDetails(id) {
     document
       .getElementById("submit-button")
       .addEventListener("click", () => addToCart(jacket));
+      document.title = jacket.title; 
   } catch (error) {
     const errorMessage = document.createElement("p");
     errorMessage.textContent = "An error occurred while fetching data.";
