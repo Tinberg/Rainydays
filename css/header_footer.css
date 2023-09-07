@@ -45,6 +45,10 @@ a {
   cursor: pointer;
 }
 
+.mobil-cart {
+  padding-right: 5px;
+}
+
 .nav-list {
   display: flex;
 }

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const cartItemCount = document.querySelector(".cart-item-count");
+    const cartItemCount = document.querySelectorAll(".cart-item-count");
     
     const savedCart = localStorage.getItem("cart");
     if (savedCart) {
@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const totalCount = cart.reduce((acc, currItem) => acc + currItem.quantity, 0);
 
-        cartItemCount.textContent = totalCount;
+        cartItemCount.forEach(element => {
+            element.textContent = totalCount;
+        });
     }
 });
 
