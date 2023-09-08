@@ -8,10 +8,8 @@
   border: groove 1px #325b68;
   width: 1800px;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin: 25px 0px;
+  padding: 40px 0px;
 }
 .circle1 {
   height: 100px;
@@ -103,7 +101,6 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  
 }
 .information-container form .row .col1 .total {
   font-weight: 700;
@@ -117,16 +114,15 @@
   min-width: 370px;
   background-color: white;
   margin-top: 15px;
-  
+
   padding: 25px;
 }
-.item-name{
+.item-name {
   padding-bottom: 2px;
 }
-.total-price{
+.total-price {
   padding: 30px;
 }
-
 
 input {
   padding-left: 10px;
@@ -134,8 +130,7 @@ input {
 .input {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   font-size: 1.3rem;
 }
 .input input {
@@ -165,37 +160,30 @@ input {
   width: 1px;
   background-color: #325b68;
   height: auto;
-  margin-top: -5px;
-  margin-bottom: -5px;
+
+  margin: -5px 0px;
 }
 .hr-left {
   background-color: #325b68;
   height: 1px;
-  margin-left: -20px;
-  margin-right: -17px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin: 15px -17px 15px -20px;
 }
 .hr-right {
   background-color: #325b68;
   height: 1px;
-  margin-left: -15px;
-  margin-right: -17px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin: 15px -17px 15px -15px;
 }
 .hr-summary {
   background-color: #325b68;
   height: 1px;
   position: relative;
   bottom: 20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-top: 15px;
+  margin: 15px -20px 0px;
   display: none;
 }
 
-.increase-qty, .decrease-qty{
+.increase-qty,
+.decrease-qty {
   width: 30px;
   height: 30px;
   font-size: 20px;
@@ -204,26 +192,24 @@ input {
   color: white;
   cursor: pointer;
 }
-.increase-qty{
+.increase-qty {
   margin-left: 10px;
 }
-.decrease-qty{
+.decrease-qty {
   margin-right: 10px;
 }
-.quantity-container{
+.quantity-container {
   display: flex;
   padding-top: 20px;
-  
 }
 
-.item-quantity{
+.item-quantity {
   padding: 0px 10px;
   border: 1px solid;
 }
 
 .hidden {
   display: none;
-  
 }
 
 .cart-message-style {
@@ -236,10 +222,9 @@ input {
   display: flex;
   justify-content: center;
 }
-.opacity-reduced{
+.opacity-reduced {
   opacity: 0.5;
 }
-
 
 .submit-button {
   background-color: #325b68;
@@ -263,7 +248,7 @@ input {
   top: 455px;
 }
 /*big screens*/
-@media only screen and (min-width: 2900px){
+@media only screen and (min-width: 2900px) {
   .cart-message-style {
     width: 15%;
   }
@@ -311,8 +296,7 @@ input {
     margin-right: -20px;
   }
   .hr-right {
-    margin-left: -20px;
-    margin-right: -20px;
+    margin: 0px -20px;
   }
   .vertical-line {
     visibility: hidden;
@@ -321,8 +305,7 @@ input {
     display: block;
   }
   .submit-flex {
-    margin-top: 25px;
-    margin-bottom: 5px;
+    margin: 25px 0px 5px;
   }
   .information-container form .row .col .jacket-container {
     min-width: 346px;

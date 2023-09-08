@@ -34,10 +34,8 @@
   width: 1805px;
   border: groove 2px #325b68;
   border-radius: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 5px 0px;
+  margin: 10px 0px;
   cursor: pointer;
   color: #325b68;
 }
@@ -49,9 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-  
 }
 .background-product {
   width: 1800px;
@@ -70,9 +65,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-  
- 
 }
 
 /* .h2-text {
@@ -96,20 +88,17 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-  
 }
-
 
 .item1 {
   width: 282px;
   height: 319px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 35px;
-  padding-right: 35px;
+  margin: 0px 50px;
+  padding: 0px 35px;
   border: 1px solid #325b68;
   border-radius: 5px;
   cursor: pointer;
+  background-color: white;
 }
 .item1:hover ~ .product1-text {
   text-decoration: 2px underline;
@@ -133,25 +122,21 @@
 } */
 
 .product1-text {
-  margin-top: 15px;
-  margin-left: 50px;
+  margin: 15px 0px 0px 50px;
   font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
   color: #325b68;
-  max-width:375px;
-  
- 
+  max-width: 375px;
 }
 
-
-.original-price{
+.original-price {
   text-decoration: line-through;
   margin-left: 50px;
   color: #325b68;
   font-size: 1.2rem;
 }
-.discount-label{
+.discount-label {
   color: red;
   margin-left: 50px;
   font-size: 1.2rem;
@@ -217,28 +202,23 @@ hr {
   .h1-text {
     font-size: 0.8rem;
   }
-  
-.product1-container{
-  display: flex;
-}
+
+  .product1-container {
+    display: flex;
+  }
 
   .product1 .item1 {
     width: 182px;
     height: 219px;
-    margin-left: 25px;
-    margin-right: 25px;
-    
+    margin: 0px 25px;
   }
- 
+
   .product1-text {
-    margin-top: 15px;
-    margin-left: 25px;
-    max-width: 328.86px ;
+    margin: 15px 0px 0px 25px;
+    max-width: 328.86px;
   }
 
- 
-
-  .original-price{
+  .original-price {
     margin-left: 25px;
   }
   .discount-label {
@@ -261,5 +241,4 @@ hr {
   .h1-text {
     font-size: 1rem;
   }
-  
 }

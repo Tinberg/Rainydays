@@ -8,25 +8,24 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 
 // //fetching api and making HTML
 async function fetchJackets() {
-    try {
-        // await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)
+  try {
+    // await new Promise(resolve => setTimeout(resolve, 2000));//only to see how the animation is(remove this)
 
-        const response = await fetch(url);
-        const jackets = await response.json();
+    const response = await fetch(url);
+    const jackets = await response.json();
 
-        let productsHTML = '';
+    let productsHTML = "";
 
-        for (const jacket of jackets) {
+    for (const jacket of jackets) {
+      const discountLabel = jacket.onSale
+        ? `<div class="discount-label">On Sale</div>`
+        : "";
 
-            const discountLabel = jacket.onSale
-            ? `<div class="discount-label">On Sale</div>`
-            : '';
+      const originalPrice = jacket.onSale
+        ? `<div class="original-price">$ ${jacket.price} USD</div>`
+        : "";
 
-            const originalPrice = jacket.onSale
-            ? `<div class="original-price">$ ${jacket.price} USD</div>`
-            : '';   
-            
-            productsHTML += `
+      productsHTML += `
             
                 <div class="product1-container">
                     <div class="product1">
@@ -37,40 +36,37 @@ async function fetchJackets() {
                                     src="${jacket.image}"
                                     alt="${jacket.title}"
                                 />
-                                <p class="product1-text">${jacket.title}&nbsp; $ ${jacket.discountedPrice || jacket.price} USD ${originalPrice} ${discountLabel} </p>
+                                <p class="product1-text">${
+                                  jacket.title
+                                }&nbsp; $ ${
+        jacket.discountedPrice || jacket.price
+      } USD ${originalPrice} ${discountLabel} </p>
                             </a>
                         </div>
                     </div>
                 </div>
                 
             `;
-        }
-      
+    }
 
-        jacketContainer.innerHTML = `
+    jacketContainer.innerHTML = `
             <div class="background-product">
                 ${productsHTML}
             </div>
         `;
-    } catch (error) {
-        
+  } catch (error) {
+    const errorMessage = document.createElement("p");
+    errorMessage.textContent = "An error occurred while fetching data.";
+    errorMessage.classList.add("error-message");
 
-        const errorMessage = document.createElement("p");
-        errorMessage.textContent = "An error occurred while fetching data.";
-        errorMessage.classList.add("error-message");
-
-        jacketContainer.innerHTML = ""; 
-        jacketContainer.appendChild(errorMessage)
-    }
+    jacketContainer.innerHTML = "";
+    jacketContainer.appendChild(errorMessage);
+  }
 }
 
 fetchJackets();
 
-
-
 // i loop version ↓↓↓
-
-
 
 // const url = "https://api.noroff.dev/api/v1/rainy-days";
 // const jacketContainer = document.querySelector(".product-section");
@@ -91,7 +87,7 @@ fetchJackets();
 
 //         for (let i = 0; i < jackets.length; i++) {
 //             const jacket = jackets[i];
-            
+
 //             const discountLabel = jacket.onSale
 //                 ? `<div class="discount-label">On Sale</div>`
 //                 : '';
@@ -112,11 +108,11 @@ fetchJackets();
 //                                 />
 //                                 <p class="product1-text">${jacket.title}&nbsp; $ ${jacket.discountedPrice || jacket.price} USD ${originalPrice} ${discountLabel} </p>
 //                             </a>
-                            
+
 //                         </div>
 //                     </div>
 //                 </div>
-                
+
 //             `;
 //         }
 
@@ -136,29 +132,3 @@ fetchJackets();
 // }
 
 // fetchJackets();
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

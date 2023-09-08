@@ -26,42 +26,36 @@ document.addEventListener("DOMContentLoaded", () => {
     productContainer.appendChild(productDiv);
   });
 
+  //paymentbutton and text
 
-//paymentbutton and text
-
-  paymentButton.addEventListener("click", function() {
-    
+  paymentButton.addEventListener("click", function () {
     if (cart.length === 0) {
-        paymentButton.disabled = true;
-        cartMessage.classList.remove("hidden");
+      paymentButton.disabled = true;
+      cartMessage.classList.remove("hidden");
     } else {
-        paymentButton.disabled = false;
-        cartMessage.classList.add("hidden");
-      
-      if(document.body.getAttribute(`data-page`) === `checkout-page`) {
+      paymentButton.disabled = false;
+      cartMessage.classList.add("hidden");
+
+      if (document.body.getAttribute(`data-page`) === `checkout-page`) {
         localStorage.clear();
       }
     }
-    
-});
+  });
 
-if(cart.length === 0){
-  paymentButton.classList.add("opacity-reduced");
-}
-else{
-  paymentButton.classList.remove("opacity-reduced");
-}
+  if (cart.length === 0) {
+    paymentButton.classList.add("opacity-reduced");
+  } else {
+    paymentButton.classList.remove("opacity-reduced");
+  }
 
-
-//increase and decrease quantity. total price.
+  //increase and decrease quantity. total price.
   const totalContainer = document.createElement("div");
-  totalContainer.classList.add("total-price")
+  totalContainer.classList.add("total-price");
   totalContainer.innerHTML = `
       <h2>Total Price: $ ${overallTotal.toFixed(2)} USD</h2>
   `;
   productContainer.appendChild(totalContainer);
 
-  
   const increaseQtyButtons = document.querySelectorAll(".increase-qty");
   increaseQtyButtons.forEach((button) => {
     button.addEventListener("click", function () {
@@ -76,7 +70,6 @@ else{
     });
   });
 });
-
 
 function updateQuantity(id, change) {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];

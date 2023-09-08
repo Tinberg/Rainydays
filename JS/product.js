@@ -20,7 +20,7 @@ function addToCart(jacket) {
       name: jacket.title,
       price: jacket.discountedPrice ? jacket.discountedPrice : jacket.price,
       image: jacket.image,
-      quantity: 1, 
+      quantity: 1,
     };
     cart.push(cartItem);
   }
@@ -115,7 +115,7 @@ async function fetchProductDetails(id) {
     document
       .getElementById("submit-button")
       .addEventListener("click", () => addToCart(jacket));
-      document.title = jacket.title; 
+    document.title = jacket.title;
   } catch (error) {
     const errorMessage = document.createElement("p");
     errorMessage.textContent = "An error occurred while fetching data.";

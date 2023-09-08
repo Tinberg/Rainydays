@@ -9,10 +9,8 @@
   border-color: #325b68;
   width: 1800px;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin: 25px 0px;
+  padding: 40px 0px;
 }
 .circle-text1 {
   display: flex;
@@ -91,16 +89,14 @@
 }
 
 .back-to-home {
-  
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #325b68;
-    color: white;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    max-width: 940px;
-  
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #325b68;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 940px;
 }
 .successful-col {
   align-items: center;
@@ -172,8 +168,7 @@
     font-size: 1.3rem;
   }
   .hr1 {
-    margin-top: 6em;
-    margin-bottom: 6em;
+    margin: 6em 0em;
   }
   .hr2 {
     margin-bottom: 5em;

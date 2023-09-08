@@ -20,9 +20,7 @@
   justify-content: center;
 }
 .login-text {
-  padding: 25px;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin: 50px 0px 25px;
   background-color: #f6f6f6;
   border: groove 1px #325b68;
   border-radius: 5px;
@@ -47,26 +45,25 @@
 .login-form label {
   color: #325b68;
   font-size: 1.4rem;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin: 15px 0px;
 }
 .login-form input {
   width: 42vw;
   padding: 15px;
   border: groove 1px #325b68;
+  max-width: 940px;
 }
 .login-form input:focus {
   border: groove 2px #325b68;
 }
 .login-button {
-  margin-top: 30px;
   padding: 20px;
   background-color: #325b68;
   color: white;
   font-size: 1.5rem;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 25px;
+  margin: 30px 0px 25px;
 }
 .login-button:hover {
   background-color: #1dac45;
