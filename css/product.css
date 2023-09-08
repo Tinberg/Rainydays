@@ -241,4 +241,14 @@ hr {
   .background-container {
     height: 1350px;
   }
+  .product-container2 {
+    
+    margin: 5px;
+  }
+  .description-background{
+    margin: 5px;
+  }
+  .product-container1{
+    margin: 5px;
+  }
 }

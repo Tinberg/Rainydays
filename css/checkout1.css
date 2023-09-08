@@ -93,7 +93,7 @@
 .information-container form .row .col {
   margin: 15px;
   color: #325b68;
-  flex: 1 1 255px;
+  flex: 1 1 380px; /*255px*/
 }
 
 .information-container form .row .col1 {
@@ -247,10 +247,44 @@ input {
   position: relative;
   top: 455px;
 }
-/*big screens*/
+/*Ultrawode+*/
 @media only screen and (min-width: 2900px) {
   .cart-message-style {
     width: 15%;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .vertical-line {
+    visibility: hidden;
+  }
+}
+/*breakpoint-checkout*/
+@media only screen and (max-width: 677px) {
+  .submit-flex {
+    top: 0;
+  }
+  .hr-left {
+    margin-right: -20px;
+  }
+  .hr-right {
+    margin: 0px -20px;
+  }
+  .vertical-line {
+    visibility: hidden;
+  }
+  .col1 {
+    padding-bottom: 10px;
+  }
+
+  .hr-summary {
+    display: hidden;
+  }
+  .submit-flex {
+    margin: 25px 0px 5px;
+  }
+  .information-container form .row .col .jacket-container {
+    min-width: 346px;
   }
 }
 
@@ -284,31 +318,6 @@ input {
   }
   .submit-flex {
     top: 430px;
-  }
-}
-
-/*breakpoint-checkout*/
-@media only screen and (max-width: 677px) {
-  .submit-flex {
-    top: 0;
-  }
-  .hr-left {
-    margin-right: -20px;
-  }
-  .hr-right {
-    margin: 0px -20px;
-  }
-  .vertical-line {
-    visibility: hidden;
-  }
-  .hr-summary {
-    display: block;
-  }
-  .submit-flex {
-    margin: 25px 0px 5px;
-  }
-  .information-container form .row .col .jacket-container {
-    min-width: 346px;
   }
 }
 
@@ -350,5 +359,14 @@ input {
   .information-container form .row .col .jacket-container {
     min-width: 297px;
     padding: 10px;
+  }
+  .information-container {
+    padding: 0px;
+  }
+  .information-container form {
+    padding: 10px;
+  }
+  .information-container form .row {
+    margin: 0px;
   }
 }

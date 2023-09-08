@@ -42,6 +42,9 @@ h3 {
   margin: 125px 0px 150px;
   font-size: 1.3rem;
 }
+h3, h2 {
+  text-align: center;
+}
 .about-text p {
   font-size: 2rem;
 }
@@ -100,5 +103,8 @@ h3 {
   }
   .about-text p {
     font-size: 1.3rem;
+  }
+  .about-text {
+    padding: 5px;
   }
 }

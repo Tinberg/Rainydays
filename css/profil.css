@@ -52,6 +52,7 @@
   padding: 15px;
   border: groove 1px #325b68;
   max-width: 940px;
+  min-width: 220px;
 }
 .login-form input:focus {
   border: groove 2px #325b68;
@@ -98,5 +99,8 @@
   }
   .login-form lable {
     font-size: 1.2rem;
+  }
+  .login-text{
+    margin: 0px;
   }
 }

@@ -226,6 +226,16 @@ h1 {
     margin: 0;
   }
 }
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .h1-text {
+    font-size: 1rem;
+    padding-top: 200px;
+  }
+  .buttons-shopnow-learnmore .button {
+    font-size: 1.4rem;
+  }
+}
 
 /*phone*/
 @media only screen and (max-width: 480px) {
@@ -244,7 +254,7 @@ h1 {
   }
   .product1-text {
     margin: 15px 0px 0px 25px;
-    max-width: 328.86px;
+    max-width: 270px;
   }
 
   .discount-label {
@@ -265,13 +275,3 @@ h1 {
   } */
 }
 
-/*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .h1-text {
-    font-size: 1rem;
-    padding-top: 200px;
-  }
-  .buttons-shopnow-learnmore .button {
-    font-size: 1.4rem;
-  }
-}

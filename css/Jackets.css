@@ -196,7 +196,12 @@ hr {
   padding: 25px 50px 50px;
   font-size: 1.3rem;
 }
-
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .h1-text {
+    font-size: 1rem;
+  }
+}
 /*phone*/
 @media only screen and (max-width: 480px) {
   .h1-text {
@@ -215,7 +220,7 @@ hr {
 
   .product1-text {
     margin: 15px 0px 0px 25px;
-    max-width: 328.86px;
+    max-width: 270px;
   }
 
   .original-price {
@@ -234,11 +239,5 @@ hr {
 
   .sort-by {
     font-size: 1.2rem;
-  }
-}
-/*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .h1-text {
-    font-size: 1rem;
   }
 }

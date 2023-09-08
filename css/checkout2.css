@@ -111,7 +111,7 @@ h1 {
 }
 .information-container form .row .col {
   color: #325b68;
-  flex: 1 1 255px;
+  flex: 1 1 380px;
   margin: 15px;
 }
 
@@ -316,6 +316,24 @@ input {
   top: 140px;
 }
 
+/*Ultrawide+*/
+@media only screen and (min-width: 2900px) {
+  .cart-message-style {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .vertical-line {
+    visibility: hidden;
+  }
+}
+/*content-checkout2*/
+@media only screen and (min-width: 769px) and (max-width: 1198px) {
+  .submit-flex {
+    top: 240px;
+  }
+}
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
   .circle1,
@@ -365,13 +383,6 @@ input {
   }
 }
 
-/*big screens*/
-@media only screen and (min-width: 2900px) {
-  .cart-message-style {
-    width: 15%;
-  }
-}
-
 /*breakpoint-checkout2*/
 @media only screen and (max-width: 677px) {
   .submit-flex {
@@ -386,21 +397,17 @@ input {
   .vertical-line {
     visibility: hidden;
   }
+  .col1 {
+    padding-bottom: 10px;
+  }
   .hr-summary {
-    display: block;
+    display: hidden;
   }
   .submit-flex {
     margin: 25px 0px 5px;
   }
   .information-container form .row .col .jacket-container {
     min-width: 346px;
-  }
-}
-
-/*content-checkout2*/
-@media only screen and (min-width: 769px) and (max-width: 1198px) {
-  .submit-flex {
-    top: 240px;
   }
 }
 
@@ -453,5 +460,14 @@ input {
   .information-container form .row .col .jacket-container {
     min-width: 297px;
     padding: 10px;
+  }
+  .information-container {
+    padding: 0px;
+  }
+  .information-container form {
+    padding: 5px;
+  }
+  .information-container form .row {
+    margin: 0px;
   }
 }

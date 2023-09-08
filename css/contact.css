@@ -53,6 +53,7 @@ h2 {
   color: #325b68;
   margin: 25px;
   font-size: 1.7rem;
+  text-align: center;
 }
 .contact-form {
   display: flex;
