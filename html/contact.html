@@ -15,7 +15,7 @@
       src="https://kit.fontawesome.com/0933736d52.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/JS/cartIcon.js" defer></script>
+    <script src="/JS/global.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
@@ -74,11 +74,12 @@
               <input
                 class="input-search"
                 type="text"
-                placeholder=" &#xf002; Search.."
+                placeholder=" &#xf002; Search jacket title"
                 aria-label="search-bar"
               />
             </div>
             <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="search-dropdown"></div>
           </form>
         </div>
         <div class="navigation-drawer">
@@ -123,7 +124,7 @@
         <div class="contact-text">
           <h2>
             Contact us via our form below, or send an e-mail to
-            <span class="e-mail">info@rainydays.com</span>
+            <a href="mailto:info@rainydays.com" class="e-mail">info@rainydays.com</a>
           </h2>
           <form action="/html/contact2.html" class="contact-form">
             <label for="name">Name</label>

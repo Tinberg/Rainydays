@@ -31,7 +31,8 @@
 .sort-by {
   position: relative;
   font-size: 1.5rem;
-  width: 1805px;
+  width: 80vw;
+  max-width: 1600px;
   border: groove 2px #325b68;
   border-radius: 5px;
   padding: 5px 0px;
@@ -42,6 +43,7 @@
 .sort-by:focus {
   background-color: #f6f6f6;
 }
+
 
 .product-section {
   display: flex;

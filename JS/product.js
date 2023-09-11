@@ -118,7 +118,7 @@ async function fetchProductDetails(id) {
     document.title = jacket.title;
   } catch (error) {
     const errorMessage = document.createElement("p");
-    errorMessage.textContent = "An error occurred while fetching data.";
+    errorMessage.textContent = "We apologize, but we couldn't retrieve product details at the moment. Please check your internet connection and try again later";
     errorMessage.classList.add("error-message");
 
     jacketContainer.innerHTML = "";

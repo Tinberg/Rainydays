@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
+//this function gets the item from the local storage and adds qunatity if there is a item with the same id. splice removes item if the item got 0 in value. 
 function updateQuantity(id, change) {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
   const item = cart.find((product) => product.id === id);
