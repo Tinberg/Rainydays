@@ -1,11 +1,7 @@
 # Rainydays
 
 
-fikse search bbutton, og sort by
-
-
-1 fiks searchbar på alle andre sider enn product. lag nytt nacn på carticon for begge functions
-2 fiks error message og no jacket found styles. og selve error message, sjekk chat gpt for siste melding
+fiks sort by 
 
 
 
