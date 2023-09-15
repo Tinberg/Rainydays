@@ -247,7 +247,7 @@ input {
   position: relative;
   top: 455px;
 }
-/*Ultrawode+*/
+/*Ultrawide+*/
 @media only screen and (min-width: 2900px) {
   .cart-message-style {
     width: 15%;

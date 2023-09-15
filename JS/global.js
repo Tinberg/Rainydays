@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //here i used reduce to iterate over each item in the car like oliver showed us on the live session.
 
-//first try
+
+
+//first try ↓↓
 
 // document.addEventListener("DOMContentLoaded", () => {
 //     const cartItemCount = document.querySelector(".cart-item-count");
@@ -70,6 +72,12 @@ const debouncedSearch = debounce(async function(e) {
 }, 300);
 
 inputSearch.addEventListener("input", debouncedSearch);
+
+document.addEventListener('click', function(event) {
+  if (!dropdown.contains(event.target) && event.target !== inputSearch) {
+      dropdown.style.display = 'none';
+  }
+});
 
 // this function fetch the api and return it to json data.
 async function fetchJacketsForSearch() {

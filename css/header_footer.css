@@ -112,7 +112,8 @@ a {
   font-family: Montserrat, fontawesome;
 }
 
-.input-search[type="text"]:focus {
+.input-search[type="text"]:focus,
+.input-search[type="text"]:hover{
   width: 15em;
   opacity: 100%;
 }
@@ -300,8 +301,26 @@ a {
 }
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
+  .navigation-top-bar{
+    justify-content: space-between;
+  }
   .navigation-top-bar .search-bar {
-    display: none;
+    left: 0;
+    margin: 18px;
+  }
+  .input-search[type="text"]:focus {
+    width: 11em;
+  }
+  .search-dropdown {
+    right: 0;
+    width: 90vw; 
+    font-size: 1.1em;
+  }
+  .text {
+    font-size: 1.2rem;
+  }
+  .navigation-top-bar .cart-icon2 {
+    margin-left: 0;
   }
 
   .buttons-top-bar2 {
@@ -340,4 +359,11 @@ a {
     padding-left: 30px;
     font-size: 2em;
   }
+}
+/*phone*/
+@media only screen and (max-width: 480px){
+  .input-search[type="text"]:focus {
+    width: 8em;
+  }
+
 }
