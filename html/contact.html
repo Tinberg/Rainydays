@@ -12,16 +12,21 @@
     <link rel="stylesheet" href="/css/header_footer.css" />
     <link rel="stylesheet" href="/css/contact.css" />
     <!-- Hotjar Tracking Code for https://rainydays-assignment.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3670499,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3670499, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
     <script
       src="https://kit.fontawesome.com/0933736d52.js"
       crossorigin="anonymous"
@@ -44,54 +49,58 @@
       <input type="checkbox" id="toggle-hamburger" />
       <nav>
         <div class="navigation-top-bar">
-          <ul class="nav-list">
-            <li><a href="about.html">About</a></li>
-            <li><a href="jackets.html">Jackets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="hamburger-only"><a href="profile.html">Profil</a></li>
-            <li class="hamburger-only">
-              <a href="/index.html"
-                ><img
-                  class="logo-home-hamburger"
-                  src="/images/RainyDays_Logo.png"
-                  alt="RainydaysLogo"
-                />
-              </a>
-            </li>
-          </ul>
-          <label
-            aria-label="Hamburger1"
-            class="hamburger"
-            for="toggle-hamburger"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </label>
-          <label
-            aria-label="Hamburger2"
-            class="x-hamburger"
-            for="toggle-hamburger"
-          >
-            <i class="fa-solid fa-x"></i>
-          </label>
-
-          <div class="cart-icon2">
-            <a aria-label="Cart-icon" href="/html/checkout1.html"
-              ><i class="fa-solid fa-cart-shopping header-shopping-icon"></i
-              ><span class="cart-item-count">0</span></a
-            >
-          </div>
-          <form class="search-bar">
-            <div>
-              <input
-                class="input-search"
-                type="text"
-                placeholder=" &#xf002; Search jacket title"
-                aria-label="search-bar"
-              />
+          <div class="outer-container">
+            <div class="inner-container">
+              <ul class="nav-list">
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/jackets.html">Jackets</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li class="hamburger-only">
+                  <a href="/html/profile.html">Profil</a>
+                </li>
+                <li class="hamburger-only">
+                  <a href="/index.html"
+                    ><img
+                      class="logo-home-hamburger"
+                      src="/images/RainyDays_Logo.png"
+                      alt="RainydaysLogo"
+                  /></a>
+                </li>
+              </ul>
+              <label
+                aria-label="hamburger1"
+                class="hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <label
+                aria-label="hamburger2"
+                class="x-hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-x"></i>
+              </label>
+              <div class="cart-icon2">
+                <a aria-label="Cart-icon" href="/html/checkout1.html">
+                  <i class="fa-solid fa-cart-shopping header-shopping-icon"></i>
+                  <span class="cart-item-count">0</span>
+                </a>
+              </div>
             </div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <div class="search-dropdown"></div>
-          </form>
+            <form class="search-bar">
+              <div>
+                <input
+                  class="input-search"
+                  type="text"
+                  placeholder=" &#xf002; Search jacket title"
+                  aria-label="search-bar"
+                />
+              </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <div class="search-dropdown"></div>
+            </form>
+          </div>
         </div>
         <div class="navigation-drawer">
           <div>
@@ -102,7 +111,7 @@
                 alt="RainydaysLogo"
             /></a>
           </div>
-          <ul class="buttons-top-bar2">
+          <ul class="buttons-navigation-drawer">
             <li>
               <a
                 aria-label="Profil-icon"
@@ -135,7 +144,9 @@
         <div class="contact-text">
           <h2>
             Contact us via our form below, or send an e-mail to
-            <a href="mailto:info@rainydays.com" class="e-mail">info@rainydays.com</a>
+            <a href="mailto:info@rainydays.com" class="e-mail"
+              >info@rainydays.com</a
+            >
           </h2>
           <form action="/html/contact2.html" class="contact-form">
             <label for="name">Name</label>

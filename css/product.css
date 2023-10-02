@@ -81,19 +81,21 @@ h2 {
 .product-img {
   width: 600px;
   height: 600px;
-  border: 1.5px solid #325b68;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 
+  0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 5px;
   object-fit: contain;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: white;
 }
 .mini-img {
   width: 125px;
   height: 125px;
   margin-top: 40px;
   object-fit: contain;
-  border: groove 1px #325b68;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 
+  0 6px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: white;
 }
 
 .radio {
@@ -247,7 +249,8 @@ hr {
     margin: 5px;
   }
   .description-background{
-    margin: 5px;
+    margin: 20px 5px;
+    
   }
   .product-container1{
     margin: 5px;

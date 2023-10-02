@@ -12,16 +12,21 @@
     <link rel="stylesheet" href="/css/header_footer.css" />
     <link rel="stylesheet" href="/css/index.css" />
     <!-- Hotjar Tracking Code for https://rainydays-assignment.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3670499,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3670499, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
     <script
       src="https://kit.fontawesome.com/0933736d52.js"
       crossorigin="anonymous"
@@ -45,67 +50,69 @@
       <input type="checkbox" id="toggle-hamburger" />
       <nav>
         <div class="navigation-top-bar">
-          <ul class="nav-list">
-            <li><a href="/html/about.html">About</a></li>
-            <li><a href="/html/jackets.html">Jackets</a></li>
-            <li><a href="/html/contact.html">Contact</a></li>
-            <li class="hamburger-only">
-              <a href="/html/profile.html">Profil</a>
-            </li>
-            <li class="hamburger-only">
-              <a href="/index.html"
-                ><img
-                  class="logo-home-hamburger"
-                  src="/images/RainyDays_Logo.png"
-                  alt="RainydaysLogo"
-                />
-              </a>
-            </li>
-          </ul>
-          <label
-            aria-label="hamburger1"
-            class="hamburger"
-            for="toggle-hamburger"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </label>
-          <label
-            aria-label="hamburger2"
-            class="x-hamburger"
-            for="toggle-hamburger"
-          >
-            <i class="fa-solid fa-x"></i>
-          </label>
-
-          <div class="cart-icon2">
-            <a aria-label="Cart-icon" href="/html/checkout1.html"
-              ><i class="fa-solid fa-cart-shopping header-shopping-icon"></i
-              ><span class="cart-item-count">0</span></a
-            >
-          </div>
-          <form class="search-bar">
-            <div>
-              <input
-                class="input-search"
-                type="text"
-                placeholder=" &#xf002; Search jacket title"
-                aria-label="search-bar"
-              />
+          <div class="outer-container">
+            <div class="inner-container">
+              <ul class="nav-list">
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/jackets.html">Jackets</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li class="hamburger-only">
+                  <a href="/html/profile.html">Profil</a>
+                </li>
+                <li class="hamburger-only">
+                  <a href="/index.html"
+                    ><img
+                      class="logo-home-hamburger"
+                      src="/images/RainyDays_Logo.png"
+                      alt="RainydaysLogo"
+                  /></a>
+                </li>
+              </ul>
+              <label
+                aria-label="hamburger1"
+                class="hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <label
+                aria-label="hamburger2"
+                class="x-hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-x"></i>
+              </label>
+              <div class="cart-icon2">
+                <a aria-label="Cart-icon" href="/html/checkout1.html">
+                  <i class="fa-solid fa-cart-shopping header-shopping-icon"></i>
+                  <span class="cart-item-count">0</span>
+                </a>
+              </div>
             </div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <div class="search-dropdown"></div>
-          </form>
+            <form class="search-bar">
+              <div>
+                <input
+                  class="input-search"
+                  type="text"
+                  placeholder=" &#xf002; Search jacket title"
+                  aria-label="search-bar"
+                />
+              </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <div class="search-dropdown"></div>
+            </form>
+          </div>
         </div>
         <div class="navigation-drawer">
           <div>
-            <a href="Index.html"
+            <a href="/index.html"
               ><img
                 class="logo-home"
                 src="/images/RainyDays_Logo.png"
                 alt="RainydaysLogo"
             /></a>
           </div>
-          <ul class="buttons-top-bar2">
+          <ul class="buttons-navigation-drawer">
             <li>
               <a
                 aria-label="Profil-icon"
@@ -129,28 +136,75 @@
       </nav>
     </header>
     <main>
-      <section class="shopnow-learnmore">
-        <img
-          class="background-image"
-          src="/images/pexels-photo-808465.jpeg"
-          alt="Roadmountain.jpg"
-        />
-        <div class="h1-text">
-          <h1>
+      <section class="hero-section">
+        <div class="hero-text">
+          <h1><span class="h1-text">RAINYDAYS.</span> For every adventure.</h1>
+          <p class="h1-undertext">
             Jackets designed for a range of different outdoor activities that
             enrich people's lives.
-          </h1>
+          </p>
+          <div class="cta-buttons">
+            <a href="/html/about.html">Learn more</a>
+            <a href="/html/jackets.html">Shop now</a>
+          </div>
         </div>
-        <nav class="buttons-shopnow-learnmore">
-          <ul>
-            <li><a class="button" href="/html/jackets.html">Shop now</a></li>
-            <li><a class="button" href="/html/about.html">Learn more</a></li>
-          </ul>
-        </nav>
+        <div class="hero-image">
+          <img
+            class="image-bigscreen"
+            src="/images/hero.png"
+            alt="hiker sitting at the top of a montain looking at the view"
+          />
+          <img
+            class="image-smallscreen"
+            src="/images/hero_2.jpg"
+            alt="hiker sitting at the top of a mountain looking at the view"
+          />
+        </div>
       </section>
-      <div class="product-section">
-        <!-- content goes here -->
-      </div>
+      <section class="content-section">
+        <div class="product-section">
+          <div class="loading-animation">
+            <div class="loader"></div>
+          </div>
+          <div class="product-heading">
+            <p class="left">BESTSELLERS</p>
+            <p class="right"><a href="/html/jackets.html">VIEW MORE</a></p>
+          </div>
+          <div class="first-group"></div>
+          <div class="figcaption-slider">
+            <img
+              class="winter-jacket"
+              src="/images/index_winter.jpg"
+              alt="woman outside in the snow, wearing a winter jacket"
+            />
+          </div>
+          <div class="product-heading">
+            <p class="left">ON SALE</p>
+            <p class="right"><a href="/html/jackets.html">VIEW MORE</a></p>
+          </div>
+          <div class="second-group"></div>
+          <div class="her-him-container">
+            <a href="/html/jackets.html"
+              ><figure class="image-overlay">
+                <img
+                  src="/images/index_her.jpg"
+                  alt="Happy woman in yellow jacket"
+                />
+                <figcaption class="overlay-text">Her</figcaption>
+              </figure></a
+            >
+            <a href="/html/jackets.html"
+              ><figure class="image-overlay">
+                <img
+                  src="/images/index_him.jpg"
+                  alt="Happy man in green jacket"
+                />
+                <figcaption class="overlay-text">Him</figcaption>
+              </figure></a
+            >
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="icons-container">

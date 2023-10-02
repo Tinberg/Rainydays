@@ -13,3 +13,11 @@ tilbakemeldinger:
 5. søk funksjon på mindre skjerm? kanskjer over about på drop down? check
 6. fikse at søk dropdown blir borte om man trykker et annet sted enn på selve dropdown(addeventlistner) check
 7. padding på title product(mobil)
+
+
+responsive index. 
+link på cta butt
+ferdig index content 
+se igjennom sidene
+
+index: bruk figcaption and figure for slider. 

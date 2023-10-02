@@ -1,200 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rainydays Checkout1. Contact information, shipping and summary. "
+    />
+    <title>Checkout1|Rainydays</title>
+    <link rel="stylesheet" href="/css/header_footer.css" />
+    <link rel="stylesheet" href="/css/checkout1.css" />
+    <!-- Hotjar Tracking Code for https://rainydays-assignment.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3670499, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <script
+      src="https://kit.fontawesome.com/0933736d52.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/JS/global.js" defer></script>
+    <script src="/JS/checkout.js" defer></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rainydays Checkout1. Contact information, shipping and summary. ">
-  <title>Checkout1|Rainydays</title>
-  <link rel="stylesheet" href="/css/header_footer.css">
-  <link rel="stylesheet" href="/css/checkout1.css">
-  <!-- Hotjar Tracking Code for https://rainydays-assignment.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3670499,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
-  <script src="/JS/global.js" defer></script>
-  <script src="/JS/checkout.js" defer></script>
-  
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/android-chrome-512x512.png">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/android-chrome-512x512.png"
+    />
+  </head>
 
-<body data-page="cart-page">
-  <header>
-    <input aria-hidden="true" type="checkbox" id="toggle-hamburger" />
-    <nav>
-      <div class="navigation-top-bar">
-        <ul class="nav-list">
-          <li><a href="about.html">About</a></li>
-          <li><a href="jackets.html">Jackets</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="hamburger-only"><a href="profile.html">Profil</a></li>
-          <li class="hamburger-only">
-            <a href="/index.html"><img class="logo-home-hamburger" src="/images/RainyDays_Logo.png"
-                alt="RainydaysLogo" />
-            </a>
-          </li>
-        </ul>
-        <label aria-label="hamburger1" class="hamburger" for="toggle-hamburger">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <label aria-label="Hamburger2" class="x-hamburger" for="toggle-hamburger">
-          <i class="fa-solid fa-x"></i>
-        </label>
-
-        <div class="cart-icon2">
-          <a aria-label="Cart-icon" href="/html/checkout1.html"
-            ><i class="fa-solid fa-cart-shopping header-shopping-icon"></i
-          ><span class="cart-item-count">0</span></a>
-        </div>
-        <form class="search-bar">
-          <div>
-            <input
-              class="input-search"
-              type="text"
-              placeholder=" &#xf002; Search jacket title"
-              aria-label="search-bar"
-            />
-          </div>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <div class="search-dropdown"></div>
-        </form>
-      </div>
-      <div class="navigation-drawer">
-        <div>
-          <a href="/index.html"><img class="logo-home" src="/images/RainyDays_Logo.png" alt="RainydaysLogo" /></a>
-        </div>
-        <ul class="buttons-top-bar2">
-          <li>
-            <a aria-label="Profil-icon" class="profil-icon" href="/html/profile.html">
-              <i class="fa-regular fa-user"></i></a>
-          </li>
-          <li>
-            <a aria-label="Cart-icon" class="cart-icon" href="/html/checkout1.html"><i
-                class="fa-solid fa-cart-shopping "></i> <span class="cart-item-count">0</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="stage">
-      <div class="stage-container">
-        <div class="circle-text1">
-          <div class="circle1">
-            <p>1</p>
-          </div>
-          <h1>Information</h1>
-        </div>
-        <div class="line"></div>
-        <div class="circle-text2">
-          <div class="circle2">
-            <p>2</p>
-          </div>
-          <p class="payment-complete">Payment</p>
-        </div>
-        <div class="line"></div>
-        <div class="circle-text2">
-          <div class="circle2">
-            <p>3</p>
-          </div>
-          <p class="payment-complete">Complete</p>
-        </div>
-      </div>
-    </section>
-    <div class="information-container">
-      <form action="/html/checkout2.html">
-        <div class="row">
-          <div class="col">
-            <div class="icon-h2">
-              <i class="fa-solid fa-user fa-xl"></i>
-              <h2>Contact information</h2>
-            </div>
-            <hr class="hr-left" />
-            <div class="input">
-              <label for="e-mail">E-mail</label>
-              <input id="e-mail" type="email" />
-            </div>
-            <hr class="hr-left" />
-            <div class="icon-h2">
-              <i class="fa-solid fa-truck-fast fa-xl"></i>
-              <h2>Shipping address</h2>
-            </div>
-            <div class="input">
-              <label for="first-name">First name</label>
-              <input id="first-name" type="text" />
-            </div>
-            <div class="input">
-              <label for="last-name">Last name</label>
-              <input id="last-name" type="text" />
-            </div>
-            <div class="input">
-              <label for="address">Address</label>
-              <input id="address" type="text" />
-            </div>
-            <div class="input">
-              <label for="city">City</label>
-              <input id="city" type="text" />
-            </div>
-            <div class="input">
-              <label for="state">State</label>
-              <input id="state" type="text" />
-            </div>
-            <div class="input">
-              <label for="phone">Phone</label>
-              <input id="phone" type="number" />
-            </div>
-          </div>
-          <div class="vertical-line"></div>
-          <div class="col">
-            <hr class="hr-summary" />
-            <div class="col1">
-              <div class="icon-h2">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <h2>Summary</h2>
+  <body data-page="cart-page">
+    <header>
+      <input type="checkbox" id="toggle-hamburger" />
+      <nav>
+        <div class="navigation-top-bar">
+          <div class="outer-container">
+            <div class="inner-container">
+              <ul class="nav-list">
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/jackets.html">Jackets</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li class="hamburger-only">
+                  <a href="/html/profile.html">Profil</a>
+                </li>
+                <li class="hamburger-only">
+                  <a href="/index.html"
+                    ><img
+                      class="logo-home-hamburger"
+                      src="/images/RainyDays_Logo.png"
+                      alt="RainydaysLogo"
+                  /></a>
+                </li>
+              </ul>
+              <label
+                aria-label="hamburger1"
+                class="hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <label
+                aria-label="hamburger2"
+                class="x-hamburger"
+                for="toggle-hamburger"
+              >
+                <i class="fa-solid fa-x"></i>
+              </label>
+              <div class="cart-icon2">
+                <a aria-label="Cart-icon" href="/html/checkout1.html">
+                  <i class="fa-solid fa-cart-shopping header-shopping-icon"></i>
+                  <span class="cart-item-count">0</span>
+                </a>
               </div>
             </div>
-            <hr class="hr-right" />
-            <div class="col1" id="cart-items">
-            <div class="submit-flex">
-              
-            </div>
-          </div>
-          <div class="hidden cart-message-style" id="cart-message">Your cart is empty, add jacket to continue payment.</div>
-          <div class="container-submit">
-          <button id="continue-to-payment" class="submit-button opacity-reduced" type="submit">
-            Continue to payment
-          </button>
-          </div>
+            <form class="search-bar">
+              <div>
+                <input
+                  class="input-search"
+                  type="text"
+                  placeholder=" &#xf002; Search jacket title"
+                  aria-label="search-bar"
+                />
+              </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <div class="search-dropdown"></div>
+            </form>
           </div>
         </div>
-      </form>
-    </div>
-  </main>
-  <footer>
-    <div class="icons-container">
-      <div class="iconsright-container">
-        <img class="icon" src="/images/Icons/206684_visa_method_card_payment_icon.svg" alt="Payment-Visa" />
-        <img class="icon" src="/images/Icons/206686_network_payment_discover_card_method_icon.svg"
-          alt="Payment-Discover" />
-        <img class="icon" src="/images/Icons/2908223_bank_card_credit_debit_mastercard_icon.svg"
-          alt="Payment-Mastercard" />
+        <div class="navigation-drawer">
+          <div>
+            <a href="/index.html"
+              ><img
+                class="logo-home"
+                src="/images/RainyDays_Logo.png"
+                alt="RainydaysLogo"
+            /></a>
+          </div>
+          <ul class="buttons-navigation-drawer">
+            <li>
+              <a
+                aria-label="Profil-icon"
+                class="profil-icon"
+                href="/html/profile.html"
+              >
+                <i class="fa-regular fa-user"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                aria-label="Cart-icon"
+                class="cart-icon"
+                href="/html/checkout1.html"
+                ><i class="fa-solid fa-cart-shopping header-shopping-icon"></i
+                ><span class="cart-item-count">0</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="stage">
+        <div class="stage-container">
+          <div class="circle-text1">
+            <div class="circle1">
+              <p>1</p>
+            </div>
+            <h1>Information</h1>
+          </div>
+          <div class="line"></div>
+          <div class="circle-text2">
+            <div class="circle2">
+              <p>2</p>
+            </div>
+            <p class="payment-complete">Payment</p>
+          </div>
+          <div class="line"></div>
+          <div class="circle-text2">
+            <div class="circle2">
+              <p>3</p>
+            </div>
+            <p class="payment-complete">Complete</p>
+          </div>
+        </div>
+      </section>
+      <div class="information-container">
+        <form action="/html/checkout2.html">
+          <div class="row">
+            <div class="col">
+              <div class="icon-h2">
+                <i class="fa-solid fa-user fa-xl"></i>
+                <h2>Contact information</h2>
+              </div>
+              <hr class="hr-left" />
+              <div class="input">
+                <label for="e-mail">E-mail</label>
+                <input id="e-mail" type="email" />
+              </div>
+              <hr class="hr-left" />
+              <div class="icon-h2">
+                <i class="fa-solid fa-truck-fast fa-xl"></i>
+                <h2>Shipping address</h2>
+              </div>
+              <div class="input">
+                <label for="first-name">First name</label>
+                <input id="first-name" type="text" />
+              </div>
+              <div class="input">
+                <label for="last-name">Last name</label>
+                <input id="last-name" type="text" />
+              </div>
+              <div class="input">
+                <label for="address">Address</label>
+                <input id="address" type="text" />
+              </div>
+              <div class="input">
+                <label for="city">City</label>
+                <input id="city" type="text" />
+              </div>
+              <div class="input">
+                <label for="state">State</label>
+                <input id="state" type="text" />
+              </div>
+              <div class="input">
+                <label for="phone">Phone</label>
+                <input id="phone" type="number" />
+              </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="col">
+              <hr class="hr-summary" />
+              <div class="col1">
+                <div class="icon-h2">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <h2>Summary</h2>
+                </div>
+              </div>
+              <hr class="hr-right" />
+              <div class="col1" id="cart-items">
+                <div class="submit-flex"></div>
+              </div>
+              <div class="hidden cart-message-style" id="cart-message">
+                Your cart is empty, add jacket to continue payment.
+              </div>
+              <div class="container-submit">
+                <button
+                  id="continue-to-payment"
+                  class="submit-button opacity-reduced"
+                  type="submit"
+                >
+                  Continue to payment
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="iconsleft-container">
-        <img class="icon2" src="/images/Icons/5296499_fb_facebook_facebook%20logo_icon.svg" alt="Facbook-link" />
-        <img class="icon2" src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg" alt="Twitter-link" />
+    </main>
+    <footer>
+      <div class="icons-container">
+        <div class="iconsright-container">
+          <img
+            class="icon"
+            src="/images/Icons/206684_visa_method_card_payment_icon.svg"
+            alt="Payment-Visa"
+          />
+          <img
+            class="icon"
+            src="/images/Icons/206686_network_payment_discover_card_method_icon.svg"
+            alt="Payment-Discover"
+          />
+          <img
+            class="icon"
+            src="/images/Icons/2908223_bank_card_credit_debit_mastercard_icon.svg"
+            alt="Payment-Mastercard"
+          />
+        </div>
+        <div class="iconsleft-container">
+          <img
+            class="icon2"
+            src="/images/Icons/5296499_fb_facebook_facebook%20logo_icon.svg"
+            alt="Facbook-link"
+          />
+          <img
+            class="icon2"
+            src="/images/Icons/3225183_app_logo_media_popular_social_icon.svg"
+            alt="Twitter-link"
+          />
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
