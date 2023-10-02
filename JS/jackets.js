@@ -68,7 +68,7 @@ function renderJackets(jackets, targetContainer) {
       ? `<div class="discount-label">On Sale</div>`
       : "";
     const originalPrice = jacket.onSale
-      ? `<div class="original-price">$ ${jacket.price} USD</div>`
+      ? `<div class="original-price">$ ${jacket.price}</div>`
       : "";
 
     productsHTML += `
@@ -79,9 +79,11 @@ function renderJackets(jackets, targetContainer) {
                             <img class="item1" src="${jacket.image}" alt="${
       jacket.title
     }"/>
-                            <div class="text-container"><p class="product1-text">${jacket.title}&nbsp; $ ${
+                            <div class="text-container"><p class="product1-text">${
+                              jacket.title
+                            }<br> $ ${
       jacket.discountedPrice || jacket.price
-    } USD ${originalPrice} ${discountLabel} </p></div>
+    } ${originalPrice} ${discountLabel} </p></div>
                         </a>
                     </div>
                 </div>
@@ -156,9 +158,9 @@ function changeSlide(newSlideIndex = (currentSlide + 1) % slides.length) {
 
 dots.forEach((dot, index) => {
   dot.addEventListener("click", () => {
-    clearInterval(slideInterval); 
+    clearInterval(slideInterval);
     changeSlide(index);
-    startSlideInterval(); 
+    startSlideInterval();
   });
 });
 
