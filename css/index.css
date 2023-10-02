@@ -51,7 +51,7 @@ h1 {
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 22px;
+  font-size: 1.6em;
   border-radius: 10px;
   white-space: nowrap;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -305,6 +305,9 @@ h1 {
   }
   .h1-undertext {
     font-size: 1.3em ;
+  }
+  .cta-buttons a {
+    font-size: 1.4em;
   }
   .overlay-text {
     font-size: 26px;

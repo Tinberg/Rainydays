@@ -15,8 +15,8 @@ tilbakemeldinger:
 7. padding på title product(mobil)
 
 
-responsive index. 
-link på cta butt
+
+
 ferdig index content 
 se igjennom sidene
 
