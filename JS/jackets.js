@@ -18,7 +18,7 @@ function hideLoading() {
 
 //this function determinate which page and how many jackets it will display
 function determinePage() {
-  if (window.location.pathname.includes("index.html")) {
+  if (path === "/" || path.includes("index.html")) {
     return "page1";
   } else {
     return null;
