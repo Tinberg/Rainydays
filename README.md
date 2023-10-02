@@ -20,4 +20,7 @@ tilbakemeldinger:
 ferdig index content 
 se igjennom sidene
 
-index: bruk figcaption and figure for slider. 
+index 
+se season collection image responsive 
+phone responsive
+fiks jackets produkter som på index

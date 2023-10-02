@@ -102,7 +102,7 @@ h1 {
 .product-heading .left {
   padding-left: 6.5%;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 1.4em;
 }
 .product-heading .right {
   padding-right: 6.5%;
@@ -134,59 +134,132 @@ h1 {
 
 .product1 {
   display: flex;
+  
 }
+.product1 a {
+  max-width: 372px;
+  width: 100%;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 
+  0 6px 6px rgba(0, 0, 0, 0.29);
+  border-radius: 10px; 
+  overflow: hidden;
+  margin: 20px;
+}
+
 
 .item1 {
   width: 282px;
   height: 319px;
-  margin: 0px 15px;
   padding: 35px 45px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   cursor: pointer;
   background-color: white;
+  vertical-align: top;
 }
 .item1:hover ~ .product1-text {
   text-decoration: 2px underline;
 }
-
+.text-container {
+  background-color: #325b68;
+  border-radius: 0 0 10px 10px;
+  min-height: 131px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.text-container:hover {
+  background-color: #1dac45;
+}
 .product1-text {
-  margin: 15px 0px 0px 15px;
   font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
-  color: #325b68;
-  max-width: 370px;
+  color: white;
+  padding: 15px 0 10px 15px;
+  
 }
 .original-price {
   text-decoration: line-through;
-  margin-left: 50px;
-  color: #325b68;
+  padding-left: 15px;
+  margin-top: -5px;
+  color: white;
   font-size: 1.2rem;
 }
 
 .discount-label {
   color: red;
-  margin-left: 50px;
   font-size: 1.2rem;
-  padding-top: 5px;
+  padding: 5px 0 10px 15px;
 }
 
-.product1-text:hover {
-  text-decoration: 2px underline;
-}
+
 
 .strike-tag {
   text-decoration: line-through;
 }
 
 /* Season Slider  */
-.figcaption-slider {
+/* .figcaption-slider {
   width: 100%;
 }
 .winter-jacket {
   width: 100%;
   height: auto;
+} */
+.slider {
+  position: relative;
+  max-width: 1800px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.slide {
+  min-width: 100%; 
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+figcaption, .slide p {
+  text-align: center;
+  padding: 12px;
+  background-color: #325b68;
+  color: white;
+}
+figcaption {
+  margin: 0;
+  font-size: 1.65em;
+}
+.slide p {
+  font-size: 1.3em;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: lightgray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #325b68;
 }
 
 /* Her/Him section  */
@@ -319,7 +392,9 @@ h1 {
     height: 400px;
     object-fit: cover;
   }
-  
+  .slide p {
+    font-size: 1.1em;
+  }
 }
 
 /*phone*/
