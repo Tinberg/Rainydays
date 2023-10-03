@@ -198,13 +198,21 @@ a {
   margin: 0 auto;
   padding: 0 0 35px;
 }
-
+.logo-container {
+  display: flex;
+  margin: 0 auto;
+  flex-grow: 1;
+  justify-content: center;
+  padding-left: 164px;
+}
 .logo-home {
   max-width: 16em;
   margin-top: 80px;
   width: 100%;
-  padding-left: 50px;
-  
+  transition: transform 0.3s ease-in-out;
+}
+.logo-home:hover {
+  transform: scale(1.07);
 }
 
 .buttons-navigation-drawer {
@@ -337,6 +345,9 @@ a {
   }
   .navigation-drawer {
     justify-content: center;
+  }
+  .logo-container {
+    padding: 0;
   }
   .logo-home {
     padding: 0;

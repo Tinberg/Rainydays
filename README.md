@@ -21,6 +21,5 @@ ferdig index content
 se igjennom sidene
 
 index 
-se season collection image responsive 
-phone responsive
+
 fiks jackets produkter som på index

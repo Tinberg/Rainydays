@@ -27,6 +27,7 @@
 h1 {
   font-size: 2.1em;
 }
+
 .h1-text {
   display: block;
   font-weight: 900;
@@ -382,18 +383,24 @@ figcaption {
   .cta-buttons a {
     font-size: 1.4em;
   }
+  .image-smallscreen {
+    height: 500px;
+    object-fit: cover;
+  }
   .overlay-text {
     font-size: 26px;
   }
   .her-him-container {
     flex-direction: column;
   }
-  .winter-jacket {
-    height: 400px;
+
+  .slide img {
     object-fit: cover;
+    height: 400px;
   }
   .slide p {
     font-size: 1.1em;
+    
   }
 }
 
@@ -432,17 +439,19 @@ figcaption {
   .product1 .item1 {
     width: 182px;
     height: 219px;
-    margin: 0px 25px;
+  }
+  .product1 a {
+    max-width: 272px;
   }
   .product1-text {
-    margin: 15px 0px 0px 25px;
-    max-width: 270px;
-  }
-  .winter-jacket {
-    height: 300px;
+    margin: 5px 0px 0px 5px;
+
   }
   .original-price {
-    margin-left: 25px;
+    margin-left: 5px;
+  }
+  .discount-label {
+    margin-left: 5px;
   }
   .overlay-text {
     font-size: 22px;
