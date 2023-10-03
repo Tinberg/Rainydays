@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 25px;
 }
 .background-product {
   width: 1800px;
@@ -192,7 +193,9 @@ hr {
   .h1-text {
     font-size: 0.8rem;
   }
-
+  .product-section {
+    padding: 0;
+}
   .product1-container {
     display: flex;
   }
