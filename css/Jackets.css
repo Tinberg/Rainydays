@@ -75,19 +75,11 @@
   justify-content: space-around;
 }
 
-/* .h2-text {
-  display: flex;
-  justify-content: flex-start;
-  color: #325b68;
-  z-index: 2;
-  padding-top: 75px;
-  padding-left: 50px;
-  font-size: 1.1em;
-} */
+
 .product1-container {
   overflow-x: auto;
   overscroll-behavior-inline: contain;
-  margin-top: 75px;
+  margin: 20px 0 20px;
   display: flex;
   flex-direction: column;
 }
@@ -185,9 +177,14 @@ hr {
   font-size: 1.3rem;
 }
 /*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .h1-text {
     font-size: 1rem;
+  }
+  .sort-by-container {
+    justify-content: center;
+    padding: 35px 15px 0;
+    
   }
 }
 /*phone*/
