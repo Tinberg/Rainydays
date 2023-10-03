@@ -9,7 +9,7 @@
 .h1-text {
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.3em;
   max-width: 1800px;
   margin: 0 auto;
 }
