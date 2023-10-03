@@ -17,9 +17,25 @@ tilbakemeldinger:
 
 
 
-ferdig index content 
-se igjennom sidene
 
-index 
+
+bytte loading icon
+bytte farge på hover
 
 fiks jackets produkter som på index
+
+profile
+floating inputs 
+change text
+
+contact 
+figma
+
+about
+figma
+
+payment
+figma
+
+jackets
+figma

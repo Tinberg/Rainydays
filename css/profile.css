@@ -2,7 +2,7 @@
   max-width: 1800px;
   width: 100%;
   margin: 0 auto;
-  background-color: #eafeff;
+  background-color: #F2FEFF;
   box-shadow: 12px 0 15px -4px rgba(50, 91, 104, 0.1), -12px 0 8px -4px rgba(50, 91, 104, 0.1);
 }
 .h1-text {
@@ -57,8 +57,8 @@
 .login-form input {
   padding: 15px 0 ;
   border: groove 1px #325b68;
+  border-radius: 10px;
   width: 100%;
- 
   min-width: 220px;
 }
 .login-form input:focus {
