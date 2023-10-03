@@ -126,7 +126,7 @@
   color: white;
   padding: 15px 10px 10px 15px;
 }
-.text-container:hover {
+.product1 a:hover .text-container {
   background-color: #1dac45;
 }
 
