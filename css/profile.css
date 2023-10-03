@@ -27,6 +27,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  
+}
+.profile-image-bigscreen {
+  width: 45%;
+  max-width: 900px;
+  height: auto;
+  
 }
 .sign-in{
   font-size: 26px;
@@ -34,6 +42,8 @@
 }
 .form-text-container {
   padding-right: 50px;
+  width: 45%;
+  max-width: 900px;
 }
 .login-form {
   display: flex;
@@ -45,10 +55,10 @@
   margin: 15px 0px;
 }
 .login-form input {
-  width: 42vw;
-  padding: 15px;
+  padding: 15px 0 ;
   border: groove 1px #325b68;
-  max-width: 940px;
+  width: 100%;
+ 
   min-width: 220px;
 }
 .login-form input:focus {
@@ -62,6 +72,8 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 30px 0px 25px;
+  width: 100%;
+  min-width: 222px;
 }
 .login-button:hover {
   background-color: #1dac45;
@@ -79,11 +91,44 @@
 }
 
 
-
+@media only screen and (min-width: 950px) {
+  .profile-image-smallscreen{
+    display: none;
+  }
+  }
+@media only screen and (max-width: 950px) {
+  .profile-image-smallscreen {
+    width: 100%;
+    max-height: 500px;
+    object-fit:cover;
+   }
+   .profile-image-bigscreen {
+    display: none;
+   }
+   .img-form {
+    justify-content: center;
+   }
+   .form-text-container{
+    padding: 40px 0 25px;
+    width: 80%;
+   }
+   .sign-in {
+    text-align: center;
+   }
+}
 /*tablet and phone*/
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 1.7rem;
+  }
+  .sign-in {
+    font-size: 24px;
+  }
+  .form-text-container label{
+    font-size: 20px;
+  }
+  .login-button{
+    font-size: 22px;
   }
 }
 /*phone*/
