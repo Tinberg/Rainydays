@@ -189,9 +189,13 @@ h1 {
 }
 
 .discount-label {
-  color: red;
+  color: #325b68;
   font-size: 1.2rem;
-  padding: 5px 0 10px 15px;
+  padding: 10px;
+  background-color: #8AD2D9;
+  max-width: 100px;
+  border-radius: 10px 0 0 0px;
+  align-self: flex-end;
 }
 
 
@@ -200,14 +204,7 @@ h1 {
   text-decoration: line-through;
 }
 
-/* Season Slider  */
-/* .figcaption-slider {
-  width: 100%;
-}
-.winter-jacket {
-  width: 100%;
-  height: auto;
-} */
+
 .slider {
   position: relative;
   max-width: 1800px;
@@ -246,13 +243,13 @@ figcaption {
 
 .dots {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .dot {
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: lightgray;
   margin: 0 5px;
@@ -400,7 +397,10 @@ figcaption {
   }
   .slide p {
     font-size: 1.1em;
-    
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
   }
 }
 

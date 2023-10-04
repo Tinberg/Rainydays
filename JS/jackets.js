@@ -141,7 +141,7 @@ let slideInterval;
 
 //Seasonal slider interval
 function startSlideInterval() {
-  slideInterval = setInterval(changeSlide, 6000);
+  slideInterval = setInterval(changeSlide, 4500);
 }
 //Seasonal Slider
 function changeSlide(newSlideIndex = (currentSlide + 1) % slides.length) {

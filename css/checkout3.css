@@ -9,8 +9,8 @@
   border-color: #325b68;
   width: 1800px;
   justify-content: center;
-  margin: 25px 0px;
-  padding: 40px 0px;
+  margin: 25px 0 0;
+  padding: 40px 0;
 }
 .circle-text1 {
   display: flex;
@@ -104,11 +104,17 @@
   flex-direction: column;
   gap: 50px;
   margin-top: 50px;
+  
+  
 }
 .successful-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-image: url(/images/checkout3.jpg);
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-top: 25px;
 }
 
 .successful-container img {

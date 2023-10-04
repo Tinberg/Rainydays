@@ -404,4 +404,8 @@ a {
   .input-search[type="text"]:focus {
     width: 8em;
   }
+  .cart-icon2 {
+    
+    left: 42%;
+}
 }
