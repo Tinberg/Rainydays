@@ -39,6 +39,7 @@
 .sign-in{
   font-size: 26px;
   color: #325b68;
+  padding-bottom: 20px;
 }
 .form-text-container {
   padding-right: 50px;
@@ -109,7 +110,7 @@
     justify-content: center;
    }
    .form-text-container{
-    padding: 40px 0 25px;
+    padding: 40px 0;
     width: 80%;
    }
    .sign-in {

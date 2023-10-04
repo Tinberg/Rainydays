@@ -10,6 +10,7 @@
   justify-content: center;
   margin: 25px 0px;
   padding: 40px 0px;
+  border-radius: 10px;
 }
 .circle1 {
   height: 100px;
@@ -83,6 +84,7 @@
   width: 1765px;
   padding: 20px;
   border: groove 1px #325b68;
+  border-radius: 10px;
 }
 
 .information-container form .row {
@@ -114,7 +116,7 @@
   min-width: 370px;
   background-color: white;
   margin-top: 15px;
-
+  border-radius: 10px;
   padding: 25px;
 }
 .item-name {
@@ -126,6 +128,7 @@
 
 input {
   padding-left: 10px;
+  border-radius: 10px;
 }
 .input {
   display: flex;
@@ -247,6 +250,14 @@ input {
   position: relative;
   top: 455px;
 }
+
+/*Ultrawide++*/
+@media only screen and (min-width: 4514px) {
+  .vertical-line {
+    visibility: hidden;
+  }
+}
+
 /*Ultrawide+*/
 @media only screen and (min-width: 2900px) {
   .cart-message-style {
@@ -285,6 +296,7 @@ input {
   }
   .information-container form .row .col .jacket-container {
     min-width: 346px;
+    
   }
 }
 

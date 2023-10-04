@@ -14,7 +14,7 @@
   width: 100%;  
   height: 50vh;  
   background-position: center;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px ;
   background-repeat: no-repeat;
   background-size: cover; 
   background-image: url(/images/eddy-billard-42nzwGteFgI-unsplash-compressed.jpg);
@@ -28,9 +28,9 @@
   padding: 25px;
   margin-top: 50px;
   margin-bottom: 25px;
-  background-color: #f6f6f6;
+  background-color: #F2FEFF;
   border: groove 1px #325b68;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   width: 1600px;
   height: 700px;
   display: flex;

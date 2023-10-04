@@ -16,6 +16,7 @@
   justify-content: center;
   margin: 25px 0px;
   padding: 40px 0px;
+  border-radius: 10px;
 }
 h1 {
   font-size: 1.6rem;
@@ -96,12 +97,14 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 25px;
+  
 }
 .information-container form {
   background-color: #f6f6f6;
   width: 1765px;
   padding: 20px;
   border: groove 1px #325b68;
+  border-radius: 10px;
 }
 
 .information-container form .row {
@@ -159,6 +162,7 @@ h1 {
 
 input {
   padding-left: 10px;
+  border-radius: 10px;
 }
 .input1 {
   display: flex;
@@ -215,6 +219,7 @@ input {
   background-color: white;
   margin-top: 15px;
   padding: 25px;
+  border-radius: 10px;
 }
 .item-name {
   padding-bottom: 2px;
@@ -315,7 +320,12 @@ input {
   position: relative;
   top: 140px;
 }
-
+/*Ultrawide++*/
+@media only screen and (min-width: 4514px) {
+  .vertical-line {
+    visibility: hidden;
+  }
+} 
 /*Ultrawide+*/
 @media only screen and (min-width: 2900px) {
   .cart-message-style {
