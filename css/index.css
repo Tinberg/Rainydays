@@ -240,6 +240,10 @@ figcaption {
 .slide p {
   font-size: 1.3em;
 }
+/* JS Hover */
+.hover-effect figcaption, .hover-effect p {
+  background-color: #1dac45;
+}
 
 .dots {
   text-align: center;

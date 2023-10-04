@@ -166,6 +166,31 @@ dots.forEach((dot, index) => {
 
 startSlideInterval();
 
+//this makes the slider target figcaption and p when hover img or p.
+const slidesHover = document.querySelectorAll('.slide');
+slidesHover.forEach(slide => {
+    const img = slide.querySelector('img');
+    const paragraph = slide.querySelector('p');
+
+    
+    img.addEventListener('mouseenter', () => {
+        slide.classList.add('hover-effect');
+    });
+
+    img.addEventListener('mouseleave', () => {
+        slide.classList.remove('hover-effect');
+    });
+
+    
+    paragraph.addEventListener('mouseenter', () => {
+        slide.classList.add('hover-effect');
+    });
+
+    paragraph.addEventListener('mouseleave', () => {
+        slide.classList.remove('hover-effect');
+    });
+});
+
 fetchJackets();
 
 //original
