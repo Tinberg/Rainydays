@@ -89,8 +89,8 @@ h2 {
   max-width: 940px;
 }
 .send-button:hover {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 
 /*tablet and phone*/

@@ -233,8 +233,8 @@ a {
   cursor: pointer;
 }
 .profil-icon:hover {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .profil-icon a {
   padding: 0.6em 0.8em 0.6em 0.8em;
@@ -251,8 +251,8 @@ a {
   cursor: pointer;
 }
 .cart-icon:hover {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 
 .cart-icon a {

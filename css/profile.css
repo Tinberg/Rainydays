@@ -61,6 +61,7 @@
   border-radius: 10px;
   width: 100%;
   min-width: 220px;
+  padding-left: 10px;
 }
 .login-form input:focus {
   border: groove 2px #325b68;
@@ -77,8 +78,8 @@
   min-width: 222px;
 }
 .login-button:hover {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .password {
   text-decoration: underline;

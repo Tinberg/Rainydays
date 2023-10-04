@@ -59,7 +59,8 @@ h1 {
 }
 
 .cta-buttons a:hover {
-  background-color: #1dac45;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 
 .hero-image {
@@ -170,7 +171,8 @@ h1 {
   flex-direction: column;
 }
 .product1 a:hover .text-container {
-  background-color: #1dac45;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .product1-text {
   font-size: 1.2rem;
@@ -197,6 +199,7 @@ h1 {
   border-radius: 10px 0 0 0px;
   align-self: flex-end;
 }
+
 
 
 
@@ -242,7 +245,8 @@ figcaption {
 }
 /* JS Hover */
 .hover-effect figcaption, .hover-effect p {
-  background-color: #1dac45;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 
 .dots {

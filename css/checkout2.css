@@ -75,12 +75,12 @@ h1 {
 }
 
 .circle-text1:hover .circle1 {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .circle-text1:hover .information {
-  color: #1dac45;
-  transition: 0.8s;
+  color: #1a983d;
+  transition: 0.6s;
 }
 
 .line {
@@ -312,8 +312,8 @@ input {
   font-size: 1.5rem;
 }
 .submit-button:hover {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .submit-flex {
   display: flex;

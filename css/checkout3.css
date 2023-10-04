@@ -52,20 +52,20 @@
 }
 
 .circle-text1:hover .circle1 {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .circle-text1:hover .text1 {
-  color: #1dac45;
-  transition: 0.8s;
+  color: #1a983d;
+  transition: 0.6s;
 }
 .circle-text2:hover .circle2 {
-  background-color: #1dac45;
-  transition: 0.8s;
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .circle-text2:hover .text2 {
-  color: #1dac45;
-  transition: 0.8s;
+  color: #1a983d;
+  transition: 0.6s;
 }
 
 .line {
@@ -97,6 +97,10 @@
   border-radius: 5px;
   cursor: pointer;
   max-width: 940px;
+}
+.back-to-home:hover {
+  background-color: #1a983d;
+  transition: 0.6s;
 }
 .successful-col {
   align-items: center;
