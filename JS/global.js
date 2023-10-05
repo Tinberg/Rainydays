@@ -23,20 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-//first try ↓↓
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const cartItemCount = document.querySelector(".cart-item-count");
-
-//     // Load cart data from localStorage
-//     const savedCart = localStorage.getItem("cart");
-//     if (savedCart) {
-//         const cart = JSON.parse(savedCart);
-
-//         
-//         cartItemCount.textContent = cart.length;
-//     }
-// });
 
 
 

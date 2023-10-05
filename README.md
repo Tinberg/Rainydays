@@ -6,9 +6,6 @@
 
 
 
-bytte loading icon
-
-
 
 
 
