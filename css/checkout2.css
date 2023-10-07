@@ -291,6 +291,7 @@ input {
   color: red;
   width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
 .container-submit {
   display: flex;
