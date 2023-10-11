@@ -76,7 +76,6 @@ async function fetchJacketsForSearch() {
       dropdown.innerHTML = "<div>Sorry, we couldn't retrieve jacket data at the moment. Please try again later</div>";
       dropdown.style.display = 'block';
       dropdown.style.background = "white";
-      dropdown.style.padding ="20px";
       dropdown.style.textAlign = "center";
     }
 }
@@ -88,7 +87,6 @@ function displayJacketsInDropdown(jackets) {
         dropdown.style.display = 'block';
         dropdown.style.background = "white";
         dropdown.style.textAlign = "center";
-        dropdown.style.paddingTop = "20px";
         return;
     }
     

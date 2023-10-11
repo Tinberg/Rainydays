@@ -144,10 +144,12 @@ a {
   overflow-y: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
-  position: absolute;
-  top: 2.5em;
-  right: 6.5em;
-  width: 50vw;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1600px;
   z-index: 10;
   
 }
@@ -305,10 +307,7 @@ a {
     padding-bottom: 0.83em;
   }
  
-  .search-dropdown {
-    right: -6.5em;
-    width: 2205px;
-  }
+
 }
 /*desktop*/
 @media only screen and (min-width: 769px) {
@@ -340,8 +339,6 @@ a {
     width: 11em;
   }
   .search-dropdown {
-    right: 0;
-    width: 90vw;
     font-size: 1.1em;
   }
   .navigation-drawer {
@@ -406,12 +403,7 @@ a {
     width: 8em;
   }
   .cart-icon2 {
-    
     left: 42%;
 }
-.search-dropdown {
-  right: -3px;
-  
-  
-}
+
 }
