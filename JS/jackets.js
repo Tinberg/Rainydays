@@ -1,4 +1,4 @@
-const url = "https://api.noroff.dev/api/v1/rainy-days";
+const url = "https://rainydays.cmsbackendsolutions.com/wp-json/wc/store/products/";
 const jacketContainer = document.querySelector(".product-section");
 const sortBySelect = document.querySelector(".sort-by");
 
