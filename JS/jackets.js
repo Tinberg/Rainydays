@@ -1,4 +1,4 @@
-const corsAnywhereUrl = "https://cors-anywhere.herokuapp.com/";
+const corsAnywhereUrl = "https://noroffcors.onrender.com/";
 const originalUrl = "https://rainydays.cmsbackendsolutions.com/wp-json/wc/store/products?per_page=20";
 const url = corsAnywhereUrl + originalUrl;
 
