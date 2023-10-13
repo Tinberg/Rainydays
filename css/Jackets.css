@@ -124,6 +124,8 @@
   color: white;
   padding: 15px 10px 10px 15px;
 }
+
+
 .product1 a:hover .text-container {
   background-color: #1a983d;
   transition: 0.6s;
