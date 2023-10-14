@@ -1,11 +1,14 @@
 //update local storage  with the api details
 function addToCart(jacket) {
+  const selectedSize = document.querySelector('input[name="size"]:checked') ? document.querySelector('input[name="size"]:checked').value : null;
+
   let cartItem = {
     id: jacket.id,
     name: jacket.name,
     price: jacket.prices.sale_price,
     image: jacket.images[0].src,
     quantity: 1,
+    size: selectedSize  // add the selected size here
   };
 
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -29,11 +32,23 @@ jacketContainer.innerHTML = `<div class="loading-animation">
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get("id");
 
+const corsAnywhereUrl2 = "https://noroffcors.onrender.com/";
+const originalUrlBase2 = "https://rainydays.cmsbackendsolutions.com/wp-json/wc/store/products/";
+
 //fetching api and making HTML
 async function fetchProductDetails(id) {
+  const url2 = corsAnywhereUrl2 + originalUrlBase2 + id;
   try {
     const response = await fetch(url2);
     const jacket = await response.json();
+    
+    let sizes =
+      jacket.attributes &&
+      jacket.attributes.find((attr) => attr.name === "Size")
+        ? jacket.attributes
+            .find((attr) => attr.name === "Size")
+            .terms.map((term) => term.name)
+        : [];
 
     const discountLabel = jacket.on_sale
       ? `<span class="discount-label">On Sale</span>`
@@ -71,22 +86,22 @@ async function fetchProductDetails(id) {
                             } USD ${originalPrice} ${discountLabel} </p> 
                             <img
                                 class="mini-img"
-                                src="${jacket.image}" 
-                                alt="${jacket.title}" 
+                                src="${jacket.images[0].src}}" 
+                                alt="${jacket.name}" 
                             />
                             <hr />
                             <form class="radio" action="/html/checkout1.html">
                                 <div class="radio-container">
                                     <fieldset class="line1">
                                         <legend>Select size</legend>
-                                        ${jacket.sizes
+                                        ${sizes
                                           .map(
                                             (size) => `
-                                            <input type="radio" id="${size}" value="${size}" name="size" />
-                                            <label for="${size}">${size}</label>
-                                        `
+                                              <input type="radio" id="${size}" value="${size}" name="size" />
+                                              <label for="${size}">${size}</label>
+                                            `
                                           )
-                                          .join("")} 
+                                          .join("")}
                                     </fieldset>
                                     <div class="line2">
                                         <button id="submit-button" type="submit">
