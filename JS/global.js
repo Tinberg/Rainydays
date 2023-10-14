@@ -48,7 +48,11 @@ const debouncedSearch = debounce(async function(e) {
     }
 
     const allJackets = await fetchJacketsForSearch();
-    const matchedJackets = allJackets.filter(jacket => jacket.name.toLowerCase().includes(query));
+    //filter search variable
+    const matchedJackets = allJackets.filter(jacket => 
+      jacket.name.toLowerCase().includes(query) ||
+      jacket.tags.some(tag => tag.name.toLowerCase().includes(query))
+  );
 
     displayJacketsInDropdown(matchedJackets);
 }, 300);
