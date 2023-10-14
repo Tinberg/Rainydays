@@ -11,13 +11,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     productDiv.innerHTML = `
           <div class="jacket-container">
-              <img class="jacket" src="${item.image}" alt="${item.title}" />
+              <img class="jacket" src="${item.image}" alt="${item.name}" />
               <p class="item-name">${item.name}</p>
-              <p>$ ${item.price} USD</p>
+              <p>$ ${(item.price / 100).toFixed(2)} USD</p>
               <div class="quantity-container">
-              <button type="button" class="decrease-qty" data-id="${item.id}">-</button>
+              <button type="button" class="decrease-qty" data-id="${
+                item.id
+              }">-</button>
               <p><span class="item-quantity">${item.quantity}</span></p>
-              <button type="button" class="increase-qty" data-id="${item.id}">+</button>
+              <button type="button" class="increase-qty" data-id="${
+                item.id
+              }">+</button>
               </div>
           </div>
       `;
@@ -52,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalContainer = document.createElement("div");
   totalContainer.classList.add("total-price");
   totalContainer.innerHTML = `
-      <h2>Total Price: $ ${overallTotal.toFixed(2)} USD</h2>
+  <h2>Total Price: $ ${(overallTotal / 100).toFixed(2)} USD</h2
   `;
   productContainer.appendChild(totalContainer);
 
@@ -70,8 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-//this function gets the item from the local storage and adds qunatity if there is a item with the same id. splice removes item if the item got 0 in value. 
+//this function gets the item from the local storage and adds qunatity if there is a item with the same id. splice removes item if the item got 0 in value. also convert value to a number
 function updateQuantity(id, change) {
+  id = parseInt(id);
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
   const item = cart.find((product) => product.id === id);
   if (item) {

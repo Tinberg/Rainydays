@@ -40,7 +40,7 @@ if (sortBySelect) {
   sortBySelect.addEventListener("change", handleSort);
 }
 
-// this function fetch the jackets from the api
+// this function fetch the jackets from the api and groupe the 3 first product then the next 3
 async function fetchJackets() {
   showLoading();
   try {
