@@ -165,7 +165,7 @@ h1 {
 .text-container {
   background-color: #325b68;
   border-radius: 0 0 10px 10px;
-  min-height: 131px;
+  min-height: 146px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -180,8 +180,10 @@ h1 {
   cursor: pointer;
   color: white;
   padding: 15px 10px 10px 15px;
-  
+  line-height: 1.5;
 }
+
+
 
 .original-price {
   text-decoration: line-through;
@@ -194,7 +196,7 @@ h1 {
 .discount-label {
   color: #325b68;
   font-size: 1.2rem;
-  padding: 10px;
+  padding: 11px;
   background-color: #b4e2e7;
   max-width: 100px;
   border-radius: 10px 0 0 0px;

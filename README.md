@@ -4,7 +4,7 @@
 
 
 
-Fikse så det blir riktig desimaler på pris sjekk igjennom sidene
+jacket, og global ferdig, fiks størrelse i woocommerce sånn at product funker. 
 
 
 

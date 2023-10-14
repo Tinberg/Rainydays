@@ -1,7 +1,3 @@
-const corsAnywhereUrl = "https://noroffcors.onrender.com/";
-const originalUrl = "https://rainydays.cmsbackendsolutions.com/wp-json/wc/store/products?per_page=20";
-const url = corsAnywhereUrl + originalUrl;
-
 const consumerKey = 'ck_a96d201db17035745ea287069f9006a92115664c';
 const consumerSecret = 'cs_7fc92745029f752ad01744b393db1ecb2af0bae1';
 const credentials = btoa(consumerKey + ':' + consumerSecret);
@@ -73,62 +69,39 @@ async function fetchJackets() {
 }
 
 // this function render the jackets
+function formatPrice(priceInCents) {
+  return (parseFloat(priceInCents) / 100).toFixed(2);
+}
+
 function renderJackets(jackets, targetContainer) {
   targetContainer.innerHTML = "";
   let productsHTML = "";
 
   for (const jacket of jackets) {
-    const discountLabel = jacket.on_sale
-      ? `<div class="discount-label">On Sale</div>`
-      : "";
-    const originalPrice = jacket.on_sale
-      ? `<div class="original-price">$ ${jacket.prices.regular_price}</div>`
-      : "";
+      const discountLabel = jacket.on_sale
+          ? `<div class="discount-label">On Sale</div>`
+          : "";
+      
+      const formattedRegularPrice = formatPrice(jacket.prices.regular_price);
+      const formattedSalePrice = jacket.prices.sale_price ? formatPrice(jacket.prices.sale_price) : formattedRegularPrice;
 
-    productsHTML += `
-            <div class="product1-container">
-                <div class="product1">
-                    <div>
-                        <a href="/html/product.html?id=${jacket.id}">
-                            <img class="item1" src="${jacket.images[0].src}" alt="${
-      jacket.name
-    }"/>
-                            <div class="text-container"><p class="product1-text">${
-                              jacket.name
-                            }<br> $ ${
-      jacket.prices.sale_price || jacket.prices.regular_price
-    } ${originalPrice} ${discountLabel} </p></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      const originalPrice = jacket.on_sale
+          ? `<div class="original-price">$ ${formattedRegularPrice}</div>`
+          : "";
+
+      productsHTML += `
+          <div class="product1-container">
+              <div class="product1">
+                  <div>
+                      <a href="/html/product.html?id=${jacket.id}">
+                          <img class="item1" src="${jacket.images[0].src}" alt="${jacket.name}"/>
+                          <div class="text-container"><p class="product1-text">${jacket.name}<br> $ ${formattedSalePrice} ${originalPrice} ${discountLabel} </p></div>
+                      </a>
+                  </div>
+              </div>
+          </div>
         `;
   }
-
-//   const salePrice = `$${(parseFloat(jacket.prices.sale_price) / 100).toFixed(2)}`;
-//   const originalPrice = jacket.on_sale
-//     ? `<div class="original-price">$${(parseFloat(jacket.prices.regular_price) / 100).toFixed(2)}</div>`
-//     : "";
-
-// productsHTML += `
-// <div class="product1-container">
-// <div class="product1">
-//   <div>
-//     <a href="/html/product.html?id=${jacket.id}">
-//       <img class="item1" src="${jacket.images[0].src}" alt="${jacket.name}"/>
-//       <div class="text-container">
-//         <p class="product1-text">${jacket.name}</p>
-//         <p class="product1-price">${salePrice}</p>
-//         <p>${originalPrice}</p>
-//         ${discountLabel}
-//       </div>
-//     </a>
-//   </div>
-// </div>
-// </div>
-//     `;
-// }
-
 
   const jacketsElement = document.createElement("div");
   jacketsElement.classList.add("background-product");
