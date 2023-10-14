@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
     productContainer.appendChild(productDiv);
   });
 
+  
   //paymentbutton and text
-
   paymentButton.addEventListener("click", function () {
     if (cart.length === 0) {
       paymentButton.disabled = true;
