@@ -1,3 +1,4 @@
+//display cart items
 document.addEventListener("DOMContentLoaded", () => {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
   const productContainer = document.querySelector("#cart-items");
