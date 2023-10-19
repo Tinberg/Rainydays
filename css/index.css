@@ -334,8 +334,9 @@ figcaption {
 
 .error-message {
   color: #f95a69;
-  padding: 100px 50px 50px;
+  padding-bottom: 50px;
   font-size: 1.3em;
+  text-align: center;
 }
 
 

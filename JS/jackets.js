@@ -56,15 +56,22 @@ async function fetchJackets() {
 
     const currentPage = determinePage();
     if (currentPage === "page1") {
+      if (fetchedJackets.length < 6) {
+        hideLoading();
+        displayError();
+        console.error("Error fetching jackets:"); 
+        return;
+      }
       renderJackets(fetchedJackets.slice(0, 3), firstGroupContainer);
       renderJackets(fetchedJackets.slice(3, 6), secondGroupContainer);
     } else {
       renderJackets(fetchedJackets, jacketContainer);
     }
-    hideLoading();
   } catch (error) {
     displayError();
     console.error("Error fetching jackets:", error);
+  } finally {
+    hideLoading(); 
   }
 }
 
@@ -111,12 +118,22 @@ function renderJackets(jackets, targetContainer) {
 
 // This function displays error of the api fail to fetch
 function displayError() {
-  const errorMessage = document.createElement("p");
-  errorMessage.textContent = "An error occurred while fetching data.";
-  errorMessage.classList.add("error-message");
+  const errorMessage1 = document.createElement("p");
+  errorMessage1.textContent = "An error occurred while fetching data.";
+  errorMessage1.classList.add("error-message");
+  
+  const errorMessage2 = errorMessage1.cloneNode(true);
 
-  jacketContainer.innerHTML = "";
-  jacketContainer.appendChild(errorMessage);
+  const currentPage = determinePage();
+  if (currentPage === "page1") {
+    firstGroupContainer.innerHTML = "";
+    secondGroupContainer.innerHTML = "";
+    firstGroupContainer.appendChild(errorMessage1);   
+    secondGroupContainer.appendChild(errorMessage2);  
+  } else {
+    jacketContainer.innerHTML = "";
+    jacketContainer.appendChild(errorMessage1);  
+  }
 }
 
 // This functon sorts and renders the jackets based on what u select for jackets.HTML
