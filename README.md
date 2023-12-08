@@ -2,11 +2,10 @@
 
 ![Rainydays_updated](https://github.com/Tinberg/Rainydays/assets/126072224/21d6b8b5-bd11-4822-8b90-066d7143d781)
 
-Rainydays marked the beginning of my web development journey as it was the first website I created.  I designed an online store for a fictional outdoor apparel brand. Catering to adventure-loving men and women aged 30 to 50, the site was initially developed using HTML and CSS for a sleek look. Later, I enhanced it with JavaScript and integrated WordPress as a content managment system (CMS), making product management both efficient and user-friendly. It was an exciting project that combined style with functionality for those passionate about outdoor activities.
-
 
 ## Description
 
+Rainydays marked the beginning of my web development journey as it was the first website I created.  I designed an online store for a fictional outdoor apparel brand. Catering to adventure-loving men and women aged 30 to 50, the site was initially developed using HTML and CSS for a sleek look. Later, I enhanced it with JavaScript and integrated WordPress as a content managment system (CMS), making product management both efficient and user-friendly. It was an exciting project that combined style with functionality for those passionate about outdoor activities.
 
 - Responsive Design: The website is adaptable to all screen sizes using Flexbox and CSS Grids, without CSS frameworks like Bootstrap.
 - Semantic HTML: Clean, semantic HTML for structure clarity and SEO.
