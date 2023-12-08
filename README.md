@@ -20,6 +20,6 @@ The journey of this project started with laying out its design in Figma, where i
 ![4373213_js_logo_logos_icon](https://github.com/Tinberg/Rainydays/assets/126072224/d877fa5d-c0f7-4dd0-beab-cca0b7c02da5)  ![291686_wordpress_blog_logo_social_social media_icon](https://github.com/Tinberg/Rainydays/assets/126072224/c6610c6e-c237-4f82-bd05-3b43c177c8c7) 
 
 
+## Getting Started
 
-
-
+### Installing
