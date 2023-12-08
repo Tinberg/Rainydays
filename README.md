@@ -12,6 +12,7 @@ Rainydays marked the beginning of my web development journey as it was the first
 - DRY CSS: Applied DRY principle in CSS for efficient, maintainable code.
 - WCAG Compliance: Focused on accessibility, making the site WCAG compliant.
 - Unique Meta Tags: Each page features unique meta, title, and h1 tags for better SEO.
+- Wordpress: REST API from Wordpress with plugin woocommerce. 
 
 
 ## Built With
