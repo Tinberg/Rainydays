@@ -19,3 +19,4 @@ The journey of this project started with laying out its design in Figma, where i
 ![317755_badge_html_html5_achievement_award_icon (1)](https://github.com/Tinberg/Rainydays/assets/126072224/38fa6731-648a-4696-a360-2333939feb36)
 
 
+![317756_badge_css_css3_achievement_award_icon](https://github.com/Tinberg/Rainydays/assets/126072224/1f673d3c-9820-481f-9610-3d22010c8359)
