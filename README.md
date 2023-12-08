@@ -28,3 +28,5 @@ The journey of this project started with laying out its design in Figma, where i
 
 ```bash
 git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
+
