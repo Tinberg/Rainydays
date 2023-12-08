@@ -32,5 +32,4 @@ git clone git@github.com:Tinberg/Rainydays.git
 
 ## Contact
 
-
-[My LinkedIn page](https://www.linkedin.com/in/mathias-tinberg-a13147113/)
+![386655_linkedin_linked in_icon](https://github.com/Tinberg/Rainydays/assets/126072224/ec1dfc29-cc5c-4c56-90c0-7c4b4808ba1c)[My LinkedIn page](https://www.linkedin.com/in/mathias-tinberg-a13147113/)
