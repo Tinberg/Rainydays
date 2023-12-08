@@ -23,3 +23,8 @@ The journey of this project started with laying out its design in Figma, where i
 ## Getting Started
 
 ### Installing
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
