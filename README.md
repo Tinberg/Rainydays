@@ -15,5 +15,7 @@ The journey of this project started with laying out its design in Figma, where i
 
 
 ## Built With
-- [React.js](https://reactjs.org/)
+![image](https://github.com/Tinberg/Rainydays/assets/126072224/4fd7c450-81b9-4681-92b2-158e1d2abd23)
+
+
 
