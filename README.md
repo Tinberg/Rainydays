@@ -15,5 +15,5 @@ The journey of this project started with laying out its design in Figma, where i
 
 
 ## Built With
-- [React.js](https://reactjs.org/)
+- [HTML]
 
