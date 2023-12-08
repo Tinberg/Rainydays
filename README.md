@@ -30,6 +30,6 @@ The journey of this project started with laying out its design in Figma, where i
 git clone git@github.com:Tinberg/Rainydays.git
 ```
 
-## Contact
+## Contact me
 
 [![386655_linkedin_linked in_icon](https://github.com/Tinberg/Rainydays/assets/126072224/ec1dfc29-cc5c-4c56-90c0-7c4b4808ba1c)](https://www.linkedin.com/in/mathias-tinberg-a13147113/)
