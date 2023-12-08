@@ -15,7 +15,8 @@ The journey of this project started with laying out its design in Figma, where i
 
 
 ## Built With
-![image](https://github.com/Tinberg/Rainydays/assets/126072224/4fd7c450-81b9-4681-92b2-158e1d2abd23)
+![image](https://github.com/Tinberg/Rainydays/assets/126072224/7e903abc-74c9-46e5-a6ad-586f76f0dcd6)
+
 
 
 
