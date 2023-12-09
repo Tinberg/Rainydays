@@ -145,7 +145,7 @@ a {
   border: 1px solid #ccc;
   border-radius: 5px;
   position: fixed;
-  top: 30%;
+  top: 360px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
