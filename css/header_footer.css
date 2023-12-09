@@ -151,7 +151,7 @@ a {
   width: 80%;
   max-width: 1600px;
   z-index: 10;
-  
+  background-color: rgba(255, 255, 255, 0.7); 
 }
 .search-container {
   background-color: white;
