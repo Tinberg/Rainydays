@@ -98,7 +98,7 @@ a {
 .navigation-top-bar a:active {
   color: black;
 }
-
+/*Bar and modal for search*/
 .search-bar {
   display: flex;
   font-size: 1.9rem;
@@ -190,6 +190,12 @@ a {
   width: 75px;
   height: 75px;
   padding-top: 10px;
+}
+@supports (-webkit-appearance: none) {
+  .search-dropdown {
+    top: 23.3%; 
+    transform: translate(-50%, -40%); 
+  }
 }
 /*Navigation drawer*/
 .navigation-drawer {
