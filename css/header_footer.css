@@ -191,12 +191,14 @@ a {
   height: 75px;
   padding-top: 10px;
 }
+/*Search For safari*/
 @supports (-webkit-appearance: none) {
-  .search-dropdown {
-    top: 23.3%; 
-    transform: translate(-50%, -40%); 
+  .input-search[type="text"]:focus,
+  .input-search[type="text"]:hover {
+      top: 5%;   
   }
 }
+
 /*Navigation drawer*/
 .navigation-drawer {
   display: flex;
